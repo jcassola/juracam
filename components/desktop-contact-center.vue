@@ -1,0 +1,55 @@
+<template>
+  <div>
+    <div class="name">
+      <h1>Jurij Charčiuk</h1>
+    </div>
+    <div class="description">
+      <p>
+        Professional Cameraman
+        and Steadicam Operator
+      </p>
+    </div>
+    <div class="contact-info">
+      <p>EMAIL: <span>jura@juracam.lt</span></p>
+      <p>MOBILE: <span>+370 612 66710</span></p>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style scoped>
+.name, .description, .contact-info{
+    text-align: center;
+  }
+  .name{
+    font-size: 2.8em;
+    font-family: 'Yellowtail', cursive;
+    color: #241B1B;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .description{
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  .description > p{
+    font-family: 'High Tower Text', cursive;
+    font-size: 2em;
+    font-weight: 1000;
+    color: #241B1B;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .contact-info > p{
+    font-size: 2.2em;
+    font-weight: 700;
+  }
+  .contact-info > p > span{
+    font-size: 0.9em;
+    font-weight: 700;
+  }
+
+</style>
