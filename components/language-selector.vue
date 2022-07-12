@@ -17,6 +17,11 @@ export default {
 </script>
 
 <style scoped>
+  div{
+    position: absolute;
+    z-index: 100;
+    margin-top: 5.9%;
+  }
   select, option{
     color: white;
     background-color: #201B1B;
@@ -24,8 +29,5 @@ export default {
     font-size: 1em;
     padding: 5px;
     outline: none;
-    position: absolute;
-    z-index: 100;
-    margin-top: 5.9%;
-  }
+}
 </style>

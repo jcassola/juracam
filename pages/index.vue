@@ -1,6 +1,9 @@
 <template>
   <div>
-    <div class="contact">
+    <div v-if="mobile" class="contact">
+      <mobile-top />
+    </div>
+    <div v-else class="contact">
       <desktop-contact-left class="contact-left" />
       <desktop-contact-center class="contact-center" />
     </div>
@@ -8,13 +11,24 @@
 </template>
 
 <script>
+import mobileTop from '~/components/mobile-top.vue'
 import desktopContactCenter from '~/components/desktop-contact-center.vue'
 import desktopContactLeft from '~/components/desktop-contact-left.vue'
 
 export default {
   name: 'ContactPage',
-  components: { desktopContactCenter, desktopContactLeft },
-  layout: ({ isMobile }) => isMobile ? 'mobile' : 'default-contact'
+  components: { desktopContactCenter, desktopContactLeft, mobileTop },
+  layout: ({ isMobile }) => isMobile ? 'mobile' : 'default-contact',
+  data () {
+    return {
+      windowWidth: window.innerWidth
+    }
+  },
+  computed: {
+    mobile () {
+      return this.windowWidth < 800
+    }
+  }
 }
 </script>
 

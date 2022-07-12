@@ -20,7 +20,6 @@ export default {
     text-align: right;
     width: 100%;
     gap:.5em
-
   }
   p{
     font-family: 'Palace Script MT', sans-serif;
