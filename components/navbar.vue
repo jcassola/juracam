@@ -2,39 +2,16 @@
   <div>
     <nav>
       <ul>
-        <li>
-          <nuxt-link class="link" to="/">
-            Contacts
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link class="link" to="/videos">
-            Videos
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link class="link" to="/pictures">
-            Photos
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link class="link" to="/partners">
-            Partners
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link class="link" to="/credits">
-            Credits
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link class="link" to="/certificate">
-            Certificate
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link class="link" to="/equipment">
-            Equipments List
+        <li
+          v-for="link in links"
+          :key="`link-${link.url}`"
+        >
+          <nuxt-link
+            class="link"
+            :to="link.url"
+            :class="{ active: $route.path === link.url }"
+          >
+            {{ link.text }}
           </nuxt-link>
         </li>
       </ul>
@@ -44,11 +21,28 @@
 
 <script>
 export default {
+  name: 'Navbar',
+  data () {
+    return {
+      links: [
+        { text: 'Contacts', url: '/' },
+        { text: 'Videos', url: '/videos' },
+        { text: 'Photos', url: '/pictures' },
+        { text: 'Partners', url: '/partners' },
+        { text: 'Credits', url: '/credits' },
+        { text: 'Certificate', url: '/certificate' },
+        { text: 'Equipments List', url: '/equipment' },
+      ],
+    }
+  },
+  created () {
+    console.log(this.$route.path)
+  },
 }
 </script>
 
 <style scoped>
-div{
+div {
   background: url("assets/pictures/bg/navbar-bg.png");
   background-position: center;
   background-size: cover;
@@ -61,30 +55,31 @@ div{
   height: 100%;
 }
 
-ul{
+.active {
+  color: #412712 !important;
+  text-decoration: underline !important;
+}
+
+ul {
   list-style-type: none;
 
   display: flex;
   flex-direction: column;
   text-align: center;
   gap: 1em;
+}
+.link {
+  font-family: "Yellowtail", cursive;
+  color: #ffffff;
+  font-size: 40px;
+  text-decoration: none;
+  text-align: center;
 
-  }
-  .link{
-    font-family: 'Yellowtail', cursive;
-    color: #FFFFFF;
-    font-size: 40px;
-    text-decoration: none;
-    text-align: center;
+  text-shadow: 0px 4px 4px #3a2020;
+}
 
-    text-shadow: 0px 4px 4px #3A2020;
-  }
-  a.nuxt-link-active {
-    color: #412712;
-    text-decoration: underline;
-  }
-  li {
-    cursor: pointer;
-    margin: auto;
-  }
+li {
+  cursor: pointer;
+  margin: auto;
+}
 </style>

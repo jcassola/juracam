@@ -1,12 +1,10 @@
 <template>
-
-<div>
-  <div class="contact">
-    <desktop-contact-left class="contact-left"></desktop-contact-left>
-    <desktop-contact-center class="contact-center"></desktop-contact-center>
+  <div>
+    <div class="contact">
+      <desktop-contact-left class="contact-left" />
+      <desktop-contact-center class="contact-center" />
+    </div>
   </div>
-</div>
-
 </template>
 
 <script>
@@ -14,8 +12,8 @@ import desktopContactCenter from '~/components/desktop-contact-center.vue'
 import desktopContactLeft from '~/components/desktop-contact-left.vue'
 
 export default {
-  components: { desktopContactCenter, desktopContactLeft },
   name: 'ContactPage',
+  components: { desktopContactCenter, desktopContactLeft },
   layout: ({ isMobile }) => isMobile ? 'mobile' : 'default-contact'
 }
 </script>
