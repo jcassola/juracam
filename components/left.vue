@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
   .partners-left{
-    background: url("assets/pictures/left-bg.png");
+    background: url("assets/pictures/bg/left-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

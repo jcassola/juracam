@@ -31,7 +31,7 @@ export default {
   }
 
   .contact-center{
-    background: url("assets/pictures/center-bg.png");
+    background: url("assets/pictures/bg/center-bg.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ export default {
     border-right: 7px solid #2F2727;
 }
 .contact-left{
-    background: url("assets/pictures/left-bg.png");
+    background: url("assets/pictures/bg/left-bg.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -1,6 +1,6 @@
 <template>
   <div class="video-left">
-    <img class="transparent" src="~/assets/pictures/transparent.svg" />
+    <img class="transparent" src="~/assets/pictures/bg/transparent.svg" />
     <div class="video-list">
       <ul>
         <li v-for="video in videos" :key="video">
@@ -39,7 +39,7 @@ export default {
 
 <style scoped>
 .video-left{
-    background: url("assets/pictures/left-bg.png");
+    background: url("assets/pictures/bg/left-bg.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

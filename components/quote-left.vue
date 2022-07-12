@@ -16,7 +16,7 @@ export default {
 
 <style>
 .quote-background{
-    background: url("assets/pictures/left-bg.png");
+    background: url("assets/pictures/bg/left-bg.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
   .main{
-    background: url("assets/pictures/tapes.svg");
+    background: url("assets/pictures/bg/tapes.svg");
     height: 100vh;
     width: 100vw;
     background-position: center;

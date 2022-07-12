@@ -22,7 +22,7 @@ export default {
 
 <style scoped>
 div{
-  background: url("assets/pictures/navbar-bg.png");
+  background: url("assets/pictures/bg/navbar-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

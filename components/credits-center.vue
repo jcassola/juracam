@@ -28,7 +28,7 @@ export default {
 <style scoped>
 
 .credits-center{
-  background: url("assets/pictures/center-bg.png");
+  background: url("assets/pictures/bg/center-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
