@@ -41,7 +41,6 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  row-gap: 3em;
 
   width: 75%;
   border-left: 7px solid #2F2727;
