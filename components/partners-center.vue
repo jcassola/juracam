@@ -3,32 +3,32 @@
     <div class="partner-pictures">
       <div class="partner-div">
         <a href="http://www.arkogints.com/" target="_blank">
-          <img class="partner-pic" src="~/assets/pictures/partners/arkogints.png" />
+          <img class="partner-pic" src="~/assets/pictures/partners/arkogints.png">
         </a>
       </div>
       <div class="partner-div">
         <a href="http://www.cinematech.lt/en/" target="_blank">
-          <img class="partner-pic" src="~/assets/pictures/partners/cinematech.png" />
+          <img class="partner-pic" src="~/assets/pictures/partners/cinematech.png">
         </a>
       </div>
       <div class="partner-div">
         <a href="http://cinetechno.art/" target="_blank">
-          <img class="partner-pic" src="~/assets/pictures/partners/cinetechno.png" />
+          <img class="partner-pic" src="~/assets/pictures/partners/cinetechno.png">
         </a>
       </div>
       <div class="partner-div">
         <a href="https://cine.lt/" target="_blank">
-          <img class="partner-pic" src="~/assets/pictures/partners/cinevera.png" />
+          <img class="partner-pic" src="~/assets/pictures/partners/cinevera.png">
         </a>
       </div>
       <div class="partner-div">
         <a href="http://www.helmifilms.fi/" target="_blank">
-          <img class="partner-pic" src="~/assets/pictures/partners/Helmi-Films.png" />
+          <img class="partner-pic" src="~/assets/pictures/partners/Helmi-Films.png">
         </a>
       </div>
       <div class="partner-div">
         <a href="https://www.steadicam-ops.com/" target="_blank">
-          <img class="partner-pic" src="~/assets/pictures/partners/sm_logo.png" />
+          <img class="partner-pic" src="~/assets/pictures/partners/sm_logo.png">
         </a>
       </div>
     </div>

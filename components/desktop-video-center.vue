@@ -3,8 +3,8 @@
     <h1>
       {{ activeVideo.name }}
     </h1>
-    <video id="video-play" ref="video" :key="videoKey" autoplay controls>
-      <source v-if="activeVideo.source" id="source" :src="activeVideo.source" type="video/mp4">
+    <video :key="videoKey" autoplay controls>
+      <source :src="activeVideo.source" type="video/mp4">
     </video>
   </div>
 </template>
@@ -20,7 +20,7 @@ export default {
     }
   },
   computed: mapState([
-    'activeVideo', 'videos'
+    'activeVideo'
   ]),
 
   watch: {

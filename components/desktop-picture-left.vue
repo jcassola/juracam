@@ -1,28 +1,38 @@
 <template>
   <div class="picture-left">
-    <div class="video-left">
-      <img class="transparent" src="~/assets/pictures/bg/transparent.svg">
-      <div class="video-list">
-        <ul>
-          <li v-for="(templateVideo, index) in videos" :key="`video-${index}`">
-            <a
-              :class="{ active: templateVideo.name === activeVideo.name}"
-              @click="setActiveVideo(templateVideo)"
-            > {{ index+1 }}.{{ templateVideo.name }}
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="div-quote">
-        <quote class="quote" />
-      </div>
+    <img class="transparent" src="~/assets/pictures/bg/transparent.svg">
+    <div class="picture-list">
+      <ul>
+        <li v-for="(templateImg, index) in pictures" :key="`img-${index}`">
+          <img
+            class="cover"
+            :src="templateImg.source"
+            @click="setActiveImg(templateImg)"
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="div-quote">
+      <quote class="quote" />
     </div>
   </div>
 </template>
 
 <script>
-export default {
+import { mapState } from 'vuex'
+// import quote from './quote.vue'
 
+export default {
+// components: { quote },
+computed: {
+    ...mapState(['pictures', 'activeImg'
+    ])
+  },
+  methods: {
+    setActiveImg (img) {
+      this.$store.commit('setActiveImg', img)
+    }
+  }
 }
 </script>
 
@@ -34,7 +44,7 @@ export default {
     background-repeat: no-repeat;
     width: 25%;
 }
-img{
+.transparent{
   height: 90%;
   position: absolute;
 }
@@ -46,22 +56,14 @@ ul{
   overflow: hidden;
   overflow-y: scroll;
 }
-a{
+.cover{
   cursor: pointer;
-  font-family: 'Monospac821 BT';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.8rem;
-  line-height: 36px;
-  color: white;
   margin-left: 10%;
+  width: 80%;
+  object-fit: contain;
 }
 li{
   margin-bottom: 10px;
-
-}
-.active{
-  color: #E8CF98;
 }
 .div-quote{
   height: 100%;

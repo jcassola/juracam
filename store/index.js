@@ -3,6 +3,9 @@ export const state = () => ({
     source: '' || '/videos/one.mp4',
     name: '' || 'One'
   },
+  activeImg: {
+    source: '' || '/pictures/one.jpg'
+  },
   videos: [
     {
       source: '/videos/one.mp4',
@@ -47,24 +50,19 @@ export const state = () => ({
   ],
   pictures: [
     {
-      source: 'asdasd',
-      name: 'asdsad'
+      source: '/pictures/one.jpg'
     },
     {
-      source: 'asdasd',
-      name: 'asdsad'
+      source: '/pictures/two.jpg'
     },
     {
-      source: 'asdasd',
-      name: 'asdsad'
+      source: '/pictures/three.jpg'
     },
     {
-      source: 'asdasd',
-      name: 'asdsad'
+      source: '/pictures/one.jpg'
     },
     {
-      source: 'asdasd',
-      name: 'asdsad'
+      source: '/pictures/two.jpg'
     }
   ]
 })
@@ -72,6 +70,8 @@ export const state = () => ({
 export const mutations = {
   setActiveVideo (state, video) {
     state.activeVideo = video
-    console.log(state.activeVideo.source)
+  },
+  setActiveImg (state, img) {
+    state.activeImg = img
   }
 }

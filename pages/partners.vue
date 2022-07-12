@@ -1,7 +1,7 @@
 <template>
   <div class="partners">
-    <quote-left></quote-left>
-    <partners-center></partners-center>
+    <quote-left />
+    <partners-center />
   </div>
 </template>
 
@@ -11,11 +11,11 @@ import QuoteLeft from '~/components/quote-left.vue'
 
 export default {
   name: 'PartnersPage',
-  layout: ({ isMobile }) => isMobile ? 'mobile' : 'default',
   components: {
     QuoteLeft,
     PartnersCenter
-  }
+  },
+  layout: ({ isMobile }) => isMobile ? 'mobile' : 'default'
 }
 </script>
 

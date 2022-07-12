@@ -1,7 +1,7 @@
 <template>
   <div class="video-left">
     <img class="transparent" src="~/assets/pictures/bg/transparent.svg">
-    <div class="video-list">
+    <div>
       <ul>
         <li v-for="(templateVideo, index) in videos" :key="`video-${index}`">
           <a

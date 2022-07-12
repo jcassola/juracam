@@ -1,12 +1,27 @@
 <template>
   <div class="picture-center">
-    <img src="~/assets/pictures/bg/fire.svg" width="500" height="600">
+    <img :key="imgKey" :src="activeImg.source" width="600" height="400">
   </div>
 </template>
 
 <script>
+import { mapState } from 'vuex'
 export default {
+  name: 'DesktopPictureCenter',
+  data () {
+    return {
+      imgKey: 0
+    }
+  },
+  computed: mapState([
+    'activeImg'
+  ]),
 
+  watch: {
+    'activeImg' () {
+      this.imgKey++
+    }
+  },
 }
 </script>
 
@@ -25,5 +40,8 @@ export default {
   width: 75%;
   border-left: 7px solid #2F2727;
   border-right: 7px solid #2F2727;
+}
+img{
+  object-fit: contain;
 }
 </style>
