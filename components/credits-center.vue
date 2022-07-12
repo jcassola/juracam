@@ -7,7 +7,7 @@
       </div>
       <ul>
         <li v-for="item in credits" :key="item">
-          {{item}}
+          {{ item }}
         </li>
       </ul>
     </div>

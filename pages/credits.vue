@@ -1,20 +1,16 @@
 <template>
-
   <div class="credits">
-
-    <quote-left></quote-left>
-    <credits-center></credits-center>
-
+    <quote-left />
+    <credits-center />
   </div>
-
 </template>
 
 <script>
 import CreditsCenter from '~/components/credits-center.vue'
 import QuoteLeft from '~/components/quote-left.vue'
 export default {
-  components: { QuoteLeft, CreditsCenter },
   name: 'CreditsPage',
+  components: { QuoteLeft, CreditsCenter },
   layout: ({ isMobile }) => isMobile ? 'mobile' : 'default'
 }
 </script>

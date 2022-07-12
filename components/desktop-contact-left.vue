@@ -1,9 +1,8 @@
 <template>
   <div class="pictures">
-    <img class="fire" src="~/assets/pictures/bg/fire.svg" />
-    <img class="yessir" src="~/assets/pictures/bg/yessir.svg" />
+    <img class="fire" src="~/assets/pictures/bg/fire.svg">
+    <img class="yessir" src="~/assets/pictures/bg/yessir.svg">
   </div>
-
 </template>
 
 <script>

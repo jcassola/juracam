@@ -4,7 +4,11 @@
     <div class="video-list">
       <ul>
         <li v-for="(templateVideo, index) in videos" :key="`video-${index}`">
-          <a @click="setActiveVideo(templateVideo)">{{ templateVideo.name }}</a>
+          <a
+            :class="{ active: templateVideo.name === activeVideo.name}"
+            @click="setActiveVideo(templateVideo)"
+          > {{ index+1 }}.{{ templateVideo.name }}
+          </a>
         </li>
       </ul>
     </div>
@@ -23,17 +27,19 @@ export default {
   components: { quote },
   data () {
     return {
-      video: ''
+      counter: 0
     }
   },
-
-  computed: mapState([
-    'videos', 'activeVideo'
-  ]),
-
+  computed: {
+    ...mapState(['videos', 'activeVideo'
+    ])
+  },
   methods: {
     setActiveVideo (video) {
       this.$store.commit('setActiveVideo', video)
+    },
+    counterPlus () {
+      return this.counter++
     }
   }
 }
@@ -55,19 +61,26 @@ ul{
   margin-top: 3em;
   position: absolute;
   width: 15%;
+  height: 50%;
+  overflow: hidden;
   overflow-y: scroll;
 }
 a{
-  justify-content: center;
   cursor: pointer;
   font-family: 'Monospac821 BT';
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.8rem;
   line-height: 36px;
-  display: flex;
-  align-items: center;
   color: white;
+  margin-left: 10%;
+}
+li{
+  margin-bottom: 10px;
+
+}
+.active{
+  color: #E8CF98;
 }
 .div-quote{
   height: 100%;

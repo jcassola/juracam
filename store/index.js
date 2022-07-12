@@ -1,32 +1,48 @@
 export const state = () => ({
   activeVideo: {
-    souce: '',
-    name: ''
+    source: '' || '/videos/one.mp4',
+    name: '' || 'One'
   },
   videos: [
     {
-      source: '/one.mp4',
+      source: '/videos/one.mp4',
       name: 'One'
     },
     {
-      source: '/two.mp4',
+      source: '/videos/two.mp4',
       name: 'Two'
     },
     {
-      source: 'asdasd',
-      name: 'asdsad'
+      source: '/videos/one.mp4',
+      name: 'Three'
     },
     {
-      source: 'asdasd',
-      name: 'asdsad'
+      source: '/videos/one.mp4',
+      name: 'Four'
     },
     {
-      source: 'asdasd',
-      name: 'asdsad'
+      source: '/videos/one.mp4',
+      name: 'Five'
     },
     {
-      source: 'asdasd',
-      name: 'asdsad'
+      source: '/videos/one.mp4',
+      name: 'Six'
+    },
+    {
+      source: '/videos/one.mp4',
+      name: 'Seven'
+    },
+    {
+      source: '/videos/one.mp4',
+      name: 'Eight'
+    },
+    {
+      source: '/videos/one.mp4',
+      name: 'Nine'
+    },
+    {
+      source: '/videos/one.mp4',
+      name: 'Ten'
     }
   ],
   pictures: [
