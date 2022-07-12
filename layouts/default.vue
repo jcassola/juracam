@@ -1,13 +1,13 @@
 <template>
-<div>
-  <language-selector></language-selector>
-  <div class="main">
-    <div class="container">
-      <nuxt class="pages"></nuxt>
-      <NavBar class="my-navbar" />
+  <div>
+    <language-selector />
+    <div class="main">
+      <div class="container">
+        <nuxt class="pages" />
+        <NavBar class="my-navbar" />
+      </div>
     </div>
   </div>
-</div>
 </template>
 
 <script>

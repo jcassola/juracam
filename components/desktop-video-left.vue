@@ -1,16 +1,16 @@
 <template>
   <div class="video-left">
-    <img class="transparent" src="~/assets/pictures/bg/transparent.svg" />
+    <img class="transparent" src="~/assets/pictures/bg/transparent.svg">
     <div class="video-list">
       <ul>
-        <li v-for="video in videos" :key="video">
-          <a @click="setActiveVideo(video)">{{ video.name }}</a>
+        <li v-for="(templateVideo, index) in videos" :key="`video-${index}`">
+          <a @click="setActiveVideo(templateVideo)">{{ templateVideo.name }}</a>
         </li>
       </ul>
     </div>
-      <div class="div-quote">
-        <quote class="quote"></quote>
-      </div>
+    <div class="div-quote">
+      <quote class="quote" />
+    </div>
   </div>
 </template>
 
@@ -26,9 +26,11 @@ export default {
       video: ''
     }
   },
+
   computed: mapState([
     'videos', 'activeVideo'
   ]),
+
   methods: {
     setActiveVideo (video) {
       this.$store.commit('setActiveVideo', video)

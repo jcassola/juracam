@@ -5,12 +5,12 @@ export const state = () => ({
   },
   videos: [
     {
-      source: '~/assets/videos/one.mp4',
-      name: 'asdsad'
+      source: '/one.mp4',
+      name: 'One'
     },
     {
-      source: 'asdasd',
-      name: 'asdsad'
+      source: '/two.mp4',
+      name: 'Two'
     },
     {
       source: 'asdasd',

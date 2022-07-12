@@ -1,18 +1,45 @@
 <template>
-<div>
-  <nav>
-    <ul>
-      <li><nuxt-link class="link" to="/">Contacts</nuxt-link></li>
-      <li><nuxt-link class="link" to="/videos">Videos</nuxt-link></li>
-      <li><nuxt-link class="link" to="/pictures">Photos</nuxt-link></li>
-      <li><nuxt-link class="link" to="/partners">Partners</nuxt-link></li>
-      <li><nuxt-link class="link" to="/credits">Credits</nuxt-link></li>
-      <li><nuxt-link class="link" to="/certificate">Certificate</nuxt-link></li>
-      <li><nuxt-link class="link" to="/equipment">Equipments List</nuxt-link></li>
-    </ul>
-  </nav>
-
-</div>
+  <div>
+    <nav>
+      <ul>
+        <li>
+          <nuxt-link class="link" to="/">
+            Contacts
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link class="link" to="/videos">
+            Videos
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link class="link" to="/pictures">
+            Photos
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link class="link" to="/partners">
+            Partners
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link class="link" to="/credits">
+            Credits
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link class="link" to="/certificate">
+            Certificate
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link class="link" to="/equipment">
+            Equipments List
+          </nuxt-link>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </template>
 
 <script>

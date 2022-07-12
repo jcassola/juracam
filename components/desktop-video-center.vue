@@ -1,18 +1,31 @@
 <template>
-<div class="video-center">
-  <h1>{{activeVideo.name}} Hola</h1>
-  <video :key="key" id="video-play" autoplay controls>
-    <source id="source" :src="activeVideo.source" type="video/mp4">
-  </video>
-</div>
+  <div class="video-center">
+    <h1>{{ activeVideo.name }} Hola</h1>
+    <video id="video-play" ref="video" :key="videoKey" autoplay controls>
+      <source v-if="activeVideo.source" id="source" :src="activeVideo.source" type="video/mp4">
+    </video>
+  </div>
 </template>
 
 <script>
 import { mapState } from 'vuex'
+
 export default {
+  name: 'DesktopVideoCenter',
+  data () {
+    return {
+      videoKey: 0
+    }
+  },
   computed: mapState([
     'activeVideo'
   ]),
+
+  watch: {
+    'activeVideo' () {
+      this.videoKey++
+    }
+  },
 }
 </script>
 
