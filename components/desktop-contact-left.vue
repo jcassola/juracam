@@ -17,15 +17,15 @@ export default {
   }
   .fire{
     width: 80%;
-    height: 90%;
+    height: 100%;
     position: relative;
     bottom: 0;
   }
   .yessir{
-    width: 200%;
+    width: 150%;
     /* height: 90%; */
     position: absolute;
-    right: -88%;
+    right: -60%;
     bottom: 0;
   }
 </style>

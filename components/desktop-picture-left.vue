@@ -20,10 +20,10 @@
 
 <script>
 import { mapState } from 'vuex'
-// import quote from './quote.vue'
+import quote from './quote.vue'
 
 export default {
-// components: { quote },
+components: { quote },
 computed: {
     ...mapState(['pictures', 'activeImg'
     ])
@@ -45,14 +45,15 @@ computed: {
     width: 25%;
 }
 .transparent{
-  height: 90%;
+  width: 42%;
+  height: 80%;
   position: absolute;
 }
 ul{
   margin-top: 3em;
   position: absolute;
   width: 15%;
-  height: 50%;
+  height:40%;
   overflow: hidden;
   overflow-y: scroll;
 }

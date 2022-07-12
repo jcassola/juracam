@@ -1,11 +1,11 @@
 <template>
   <div>
-      <select name="language">
-        <option value="en">
-          English
+    <select name="language">
+      <option value="en">
+        English
       </option>
       <option value="ru">
-          Russian
+        Russian
       </option>
     </select>
   </div>
@@ -26,6 +26,6 @@ export default {
     outline: none;
     position: absolute;
     z-index: 100;
-    margin-top: 2.5em;
+    margin-top: 5.9%;
   }
 </style>

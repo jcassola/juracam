@@ -1,13 +1,13 @@
 <template>
-<div>
-  <language-selector></language-selector>
-  <div class="main">
-    <div class="container">
-      <nuxt class="pages"></nuxt>
-      <NavBar class="my-navbar" />
+  <div>
+    <language-selector />
+    <div class="main">
+      <div class="container">
+        <nuxt class="pages" />
+        <NavBar class="my-navbar" />
+      </div>
     </div>
   </div>
-</div>
 </template>
 
 <script>
@@ -28,8 +28,8 @@ export default {
     height: 100vh;
     width: 100vw;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
 
     display: flex;
     align-items: center;
@@ -42,8 +42,9 @@ export default {
   .container{
     display: flex;
     flex-direction: row;
-    height: 90%;
+    height: 76%;
     width: 100%;
+    margin-top: 10px;
 
   }
   .my-navbar{

@@ -54,14 +54,15 @@ export default {
     width: 25%;
 }
 img{
-  height: 90%;
+  width: 42%;
+  height: 80%;
   position: absolute;
 }
 ul{
   margin-top: 3em;
   position: absolute;
   width: 15%;
-  height: 50%;
+  height:40%;
   overflow: hidden;
   overflow-y: scroll;
 }
