@@ -18,9 +18,7 @@ export default {
 <style>
   .video{
     display: flex;
-    flex-direction: row;
-    height: 100%;
     width: 100%;
-    margin: auto;
+    height: 100%;
   }
 </style>

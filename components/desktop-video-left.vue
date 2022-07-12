@@ -1,11 +1,13 @@
 <template>
   <div class="video-left">
     <img class="transparent" src="~/assets/pictures/transparent.svg" />
+    <div class="video-list">
       <ul>
-        <li v-for="video in videos" :key="video.name">
+        <li v-for="video in videos" :key="video">
           <a @click="setActiveVideo(video)">{{ video.name }}</a>
         </li>
       </ul>
+    </div>
       <div class="div-quote">
         <quote class="quote"></quote>
       </div>
@@ -13,6 +15,7 @@
 </template>
 
 <script>
+
 import { mapState } from 'vuex'
 import quote from './quote.vue'
 

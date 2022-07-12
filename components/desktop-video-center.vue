@@ -1,7 +1,6 @@
 <template>
 <div class="video-center">
   <h1>{{activeVideo.name}} Hola</h1>
-  <!-- <video id="video-play" controls media="all" autoplay type="video/mp4"></video> -->
   <video :key="key" id="video-play" autoplay controls>
     <source id="source" :src="activeVideo.source" type="video/mp4">
   </video>
@@ -13,7 +12,7 @@ import { mapState } from 'vuex'
 export default {
   computed: mapState([
     'activeVideo'
-  ])
+  ]),
 }
 </script>
 
@@ -27,9 +26,9 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2em;
-  width: 75%;
+  row-gap: 3em;
 
+  width: 75%;
   border-left: 7px solid #2F2727;
   border-right: 7px solid #2F2727;
 }
@@ -38,7 +37,11 @@ video{
   width: 80%
 }
 h1{
-  display: block;
+  font-family: 'Yellowtail';
+  font-style: normal;
+  font-size: 5em;
+  color: #241B1B;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin: 0 auto;
 }
 </style>
