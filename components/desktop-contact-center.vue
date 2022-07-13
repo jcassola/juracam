@@ -42,32 +42,33 @@ h1{ /*Only por normalize browser CSS*/
   font-weight: 400;
 }
 .name, .description, .contact-info{
-    text-align: center;
-  }
-  .name{
-    font-size: 2.8em;
-    font-family: 'Yellowtail', cursive;
-    color: #241B1B;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  .description{
-    margin: 0 auto;
-    max-width: 80%;
-  }
-  .description > p{
-    font-family: 'High Tower Text', cursive;
-    font-size: 2em;
-    font-weight: 1000;
-    color: #241B1B;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  .contact-info > p{
-    font-size: 2.2em;
-    font-weight: 700;
-  }
-  .contact-info > p > span{
-    font-size: 0.9em;
-    font-weight: 700;
-  }
+  text-align: center;
+  margin: 0;
+}
+.name{
+  font-size: 2.8em;
+  font-family: 'Yellowtail', cursive;
+  color: #241B1B;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.description{
+  margin: 0 auto;
+  max-width: 80%;
+}
+.description > p{
+  font-family: 'High Tower Text', cursive;
+  font-size: 2em;
+  font-weight: 1000;
+  color: #241B1B;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contact-info > p{
+  font-size: 2.2em;
+  font-weight: 700;
+}
+.contact-info > p > span{
+  font-size: 0.9em;
+  font-weight: 700;
+}
 
 </style>
