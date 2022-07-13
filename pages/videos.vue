@@ -1,6 +1,5 @@
 <template>
   <div v-if="mobile" class="video">
-    <mobile-top />
     <mobile-video />
   </div>
   <div v-else class="video">
@@ -12,12 +11,11 @@
 <script>
 import desktopVideoCenter from '~/components/desktop-video-center.vue'
 import desktopVideoLeft from '~/components/desktop-video-left.vue'
-import MobileTop from '~/components/mobile-top.vue'
 import MobileVideo from '~/components/mobile-video.vue'
 
 export default {
   name: 'VideosPage',
-  components: { desktopVideoCenter, desktopVideoLeft, MobileTop, MobileVideo },
+  components: { desktopVideoCenter, desktopVideoLeft, MobileVideo },
   layout: ({ isMobile }) => (isMobile ? 'mobile' : 'default'),
   data () {
     return {

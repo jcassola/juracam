@@ -3,6 +3,7 @@
     <language-selector class="language" />
     <div class="main">
       <div class="container">
+        <mobile-top />
         <nuxt class="pages" />
         <NavBar class="my-navbar" />
       </div>
@@ -12,12 +13,14 @@
 
 <script>
 import LanguageSelector from '~/components/language-selector.vue'
+import MobileTop from '~/components/mobile-top.vue'
 import NavBar from '~/components/navbar.vue'
 
 export default {
   components: {
     NavBar,
-    LanguageSelector
+    LanguageSelector,
+    MobileTop
   }
 }
 </script>

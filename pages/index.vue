@@ -1,7 +1,6 @@
 <template>
   <div>
     <div v-if="mobile" class="contact">
-      <mobile-top />
       <mobile-contact />
     </div>
     <div v-else class="contact">
@@ -12,14 +11,17 @@
 </template>
 
 <script>
-import mobileTop from '~/components/mobile-top.vue'
 import desktopContactCenter from '~/components/desktop-contact-center.vue'
 import desktopContactLeft from '~/components/desktop-contact-left.vue'
 import MobileContact from '~/components/mobile-contact.vue'
 
 export default {
   name: 'ContactPage',
-  components: { desktopContactCenter, desktopContactLeft, mobileTop, MobileContact },
+  components: {
+    desktopContactCenter,
+    desktopContactLeft,
+    MobileContact
+    },
   layout: ({ isMobile }) => isMobile ? 'mobile' : 'default-contact',
   data () {
     return {
