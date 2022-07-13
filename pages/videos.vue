@@ -38,4 +38,11 @@ export default {
     width: 100%;
     margin: auto;
 }
+@media only screen and (max-width: 800px) {
+  .video {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+}
 </style>
