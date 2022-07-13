@@ -2,6 +2,7 @@
   <div>
     <div v-if="mobile" class="contact">
       <mobile-top />
+      <mobile-contact />
     </div>
     <div v-else class="contact">
       <desktop-contact-left class="contact-left" />
@@ -14,10 +15,11 @@
 import mobileTop from '~/components/mobile-top.vue'
 import desktopContactCenter from '~/components/desktop-contact-center.vue'
 import desktopContactLeft from '~/components/desktop-contact-left.vue'
+import MobileContact from '~/components/mobile-contact.vue'
 
 export default {
   name: 'ContactPage',
-  components: { desktopContactCenter, desktopContactLeft, mobileTop },
+  components: { desktopContactCenter, desktopContactLeft, mobileTop, MobileContact },
   layout: ({ isMobile }) => isMobile ? 'mobile' : 'default-contact',
   data () {
     return {
@@ -39,30 +41,20 @@ export default {
     height: 100%;
     width: 100%;
     margin: auto;
-
   }
-
-  .contact-center{
-    background: url("assets/pictures/bg/center-bg.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2em;
-    width: 100%;
-
-    border-left: 7px solid #2F2727;
-    border-right: 7px solid #2F2727;
-}
 .contact-left{
     background: url("assets/pictures/bg/left-bg.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
 }
 
 </style>

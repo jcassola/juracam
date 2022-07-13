@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="contact-center">
     <div class="name">
       <h1>Jurij Charčiuk</h1>
     </div>
@@ -23,6 +23,24 @@ export default {
 </script>
 
 <style scoped>
+.contact-center{
+  background: url("assets/pictures/bg/center-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+  width: 100%;
+
+  border-left: 7px solid #2F2727;
+  border-right: 7px solid #2F2727;
+}
+h1{ /*Only por normalize browser CSS*/
+  font-weight: 400;
+}
 .name, .description, .contact-info{
     text-align: center;
   }
