@@ -45,9 +45,10 @@ computed: {
     width: 25%;
 }
 .transparent{
-  width: 42%;
+  width: 43%;
   height: 80%;
   position: absolute;
+  object-fit: cover;
 }
 ul{
   margin-top: 3em;

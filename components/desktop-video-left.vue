@@ -54,9 +54,10 @@ export default {
     width: 25%;
 }
 img{
-  width: 42%;
+  width: 43%;
   height: 80%;
   position: absolute;
+  object-fit: cover;
 }
 ul{
   margin-top: 3em;

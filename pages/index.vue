@@ -28,7 +28,7 @@ export default {
   },
   computed: {
     mobile () {
-      return this.windowWidth < 800
+      return this.windowWidth <= 800
     }
   }
 }
