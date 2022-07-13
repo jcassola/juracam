@@ -43,7 +43,7 @@ export default {
     align-items: center;
     /* gap: 2em; */
     width: 100%;
-    height: 30em;
+    height: 40em;
 
     border-top: 7px solid #2F2727;
     border-bottom: 7px solid #2F2727;
@@ -66,8 +66,9 @@ export default {
     justify-content: center;
   }
   .cover{
-    width: 30em;
+    width: 90%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
   }
 </style>
