@@ -22,10 +22,14 @@ export default {
   computed: mapState([
     'activeVideo'
   ]),
-
   watch: {
     'activeVideo' () {
       this.videoKey++
+    }
+  },
+  methods: {
+    setActiveVideo (video) {
+      this.$store.commit('setActiveVideo', video)
     }
   },
 }
@@ -51,7 +55,7 @@ video{
   width: 80%
 }
 h1{
-  font-family: 'Yellowtail';
+  font-family: 'Yellowtail', sans-serif;
   font-style: normal;
   font-size: 5em;
   color: #241B1B;
