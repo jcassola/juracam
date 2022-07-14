@@ -14,7 +14,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .quote-background{
     background: url("assets/pictures/bg/left-bg.png");
     background-position: center;
