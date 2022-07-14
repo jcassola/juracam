@@ -46,13 +46,14 @@ export default {
   justify-content: center;
   gap: 2em;
   width: 100%;
+  height: 30em;
 
   border-top: 7px solid #2F2727;
   border-bottom: 7px solid #2F2727;
 }
 
 .name{
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: 800;
   font-family: 'Yellowtail', cursive;
   color: #241B1B;
