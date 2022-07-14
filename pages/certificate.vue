@@ -35,8 +35,8 @@ export default {
   height: 100%;
 }
 .certificate-center{
-  background: url("assets/pictures/bg/center-bg.png");
-  background-position: center;
+  background: url("assets/pictures/bg/center-bg-shorter.png");
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 

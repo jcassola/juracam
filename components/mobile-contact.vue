@@ -35,8 +35,8 @@ export default {
   width: 100%;
 }
 .mobile-contact{
-  background: url("assets/pictures/bg/center-bg.png");
-  background-position: center;
+  background: url("assets/pictures/bg/center-bg-shorter.png");
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -70,7 +70,7 @@ export default {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .contact-info > p{
-  font-size: .9em;
+  font-size: 1.1em;
   font-weight: 700;
 }
 .contact-info > p > span{

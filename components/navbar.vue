@@ -44,7 +44,7 @@ export default {
 <style scoped>
 div {
   background: url("assets/pictures/bg/navbar-bg.png");
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -81,5 +81,10 @@ ul {
 li {
   cursor: pointer;
   margin: auto;
+}
+@media only screen and (max-width: 800px) {
+  div {
+    background-position: top;
+  }
 }
 </style>
