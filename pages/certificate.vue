@@ -1,22 +1,30 @@
 <template>
-
   <div class="certificate">
-    <quote-left></quote-left>
+    <quote-left v-if="!mobile" />
     <div class="certificate-center">
       <div class="certificate-picture">
-          <img class="certificate" src="~/assets/pictures/certificate.png" />
+        <img class="certificate" src="~/assets/pictures/certificate.png">
       </div>
     </div>
   </div>
-
 </template>
 
 <script>
 import quoteLeft from '~/components/quote-left.vue'
 export default {
-  components: { quoteLeft },
   name: 'CertificatePage',
-  layout: ({ isMobile }) => isMobile ? 'mobile' : 'default'
+  components: { quoteLeft },
+  layout: ({ isMobile }) => isMobile ? 'mobile' : 'default',
+  data () {
+    return {
+      windowWidth: window.innerWidth
+    }
+  },
+  computed: {
+    mobile () {
+      return this.windowWidth <= 800
+    }
+  }
 }
 </script>
 
@@ -48,5 +56,19 @@ export default {
 }
 img{
   object-fit: contain;
+}
+@media only screen and (max-width: 800px) {
+  .certificate-center {
+    width: 100%;
+    flex-direction: row;
+    padding: 1.5em;
+    border-left: 0;
+    border-right: 0;
+    border-top: 7px solid #2F2727;
+    border-bottom: 7px solid #2F2727;
+  }
+  .certificate-picture {
+    width: 80%;
+  }
 }
 </style>
