@@ -49,13 +49,9 @@ export default {
   background-repeat: no-repeat;
 
   display: flex;
-  /* flex-direction: column;
-  justify-content: center;
-  gap: 2em; */
 
-  width: 75%;
-  border-left: 7px solid #2F2727;
-  border-right: 7px solid #2F2727;
+  border-top: 7px solid #2F2727;
+  border-bottom: 7px solid #2F2727;
 }
 .partner-pictures{
   display: flex;
@@ -66,16 +62,8 @@ export default {
   justify-content: center;
 }
 .partner-pic{
-  width: 13em;
+  width: 8em;
   object-fit: cover;
-}
-@media only screen and (max-width: 800px) {
-  .partner-pic {
-    width: 7em;
-  }
-  .partner-center{
-    width: 100%;
-  }
 }
 
 </style>
