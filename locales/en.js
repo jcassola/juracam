@@ -25,5 +25,14 @@ export default {
     videosHeader: 'Videos',
 
     // Mobile Pictures
-    photographs: 'Photographs'
+    photographs: 'Photographs',
+
+    // Mobile Partners
+    partnersHeader: 'Partners',
+
+    // Mobile Credits
+    creditsHeader: 'Credits',
+
+    // Mobile Equipment
+    equipmentHeader: 'Equipment List'
 }

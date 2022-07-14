@@ -3,7 +3,7 @@
     <quote-left v-if="!mobile" />
     <div class="equipment-center">
       <h1 v-if="mobile">
-        Equipment List
+        {{ $t('equipmentHeader') }}
       </h1>
       <ul class="equipment-list">
         <li>1.Post: Cinema Technologies.</li>

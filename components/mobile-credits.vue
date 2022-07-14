@@ -2,7 +2,7 @@
   <div class="credits-center">
     <div class="credit-info">
       <div class="headers">
-        <h1>Credits</h1>
+        <h1>{{ $t('creditsHeader') }}</h1>
       </div>
       <ul>
         <li v-for="item in credits" :key="item">

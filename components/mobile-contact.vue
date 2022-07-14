@@ -70,7 +70,7 @@ export default {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .contact-info > p{
-  font-size: 1.18em;
+  font-size: .9em;
   font-weight: 700;
 }
 .contact-info > p > span{

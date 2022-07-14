@@ -1,6 +1,6 @@
 <template>
   <div class="partner-center">
-    <h1>Partners</h1>
+    <h1>{{ $t('partnersHeader') }}</h1>
     <div class="partner-pictures">
       <div class="partner-div">
         <a href="http://www.arkogints.com/" target="_blank">

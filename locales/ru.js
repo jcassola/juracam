@@ -9,5 +9,30 @@ export default {
 
   description: 'Профессиональный оператор и оператор стедикама',
   email: 'ЭЛ. АДРЕС',
-  mobile: 'МОБИЛЬНЫЙ'
+  mobile: 'МОБИЛЬНЫЙ',
+
+  // Translate to Russian only content between ''
+  // Quote
+  quoteFirstLine: 'Movement is life',
+  quoteSecondLine: 'If you move',
+  quoteThirdLine: 'you live!',
+
+  // Credits
+  workExperience: 'Work Experience',
+  cameraMan: 'Cameraman',
+
+  // Mobile Videos
+  videosHeader: 'Videos',
+
+  // Mobile Pictures
+  photographs: 'Photographs',
+
+  // Mobile Partners
+  partnersHeader: 'Partners',
+
+  // Mobile Credits
+  creditsHeader: 'Credits',
+
+  // Mobile Equipment
+  equipmentHeader: 'Equipment List'
 }
