@@ -8,10 +8,10 @@
         >
           <nuxt-link
             class="link"
-            :to="link.url"
+            :to="localePath(link.text)"
             :class="{ active: $route.path === link.url }"
           >
-            {{ link.text }}
+            {{ $t(link.text) }}
           </nuxt-link>
         </li>
       </ul>
@@ -25,13 +25,13 @@ export default {
   data () {
     return {
       links: [
-        { text: 'Contacts', url: '/' },
-        { text: 'Videos', url: '/videos' },
-        { text: 'Photos', url: '/pictures' },
-        { text: 'Partners', url: '/partners' },
-        { text: 'Credits', url: '/credits' },
-        { text: 'Certificate', url: '/certificate' },
-        { text: 'Equipments List', url: '/equipment' },
+        { text: 'contacts', url: '/contacts' },
+        { text: 'videos', url: '/videos' },
+        { text: 'pictures', url: '/pictures' },
+        { text: 'partners', url: '/partners' },
+        { text: 'credits', url: '/credits' },
+        { text: 'certificate', url: '/certificate' },
+        { text: 'equipment', url: '/equipment' },
       ],
     }
   },

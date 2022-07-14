@@ -75,7 +75,7 @@ export default {
   ],
 
   router: {
-    middleware: ['mobile']
+    middleware: ['mobile', 'redirects']
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

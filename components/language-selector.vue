@@ -1,6 +1,6 @@
 <template>
   <div>
-    <select name="language">
+    <select v-model="$i18n.locale" name="language">
       <option value="en">
         English
       </option>
