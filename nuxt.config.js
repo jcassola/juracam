@@ -54,6 +54,24 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    ['nuxt-i18n', {
+      locales: [
+        {
+          name: 'English',
+          code: 'en',
+          iso: 'en-US',
+          file: 'en.js'
+        },
+        {
+          name: 'Russian',
+          code: 'ru',
+          iso: 'ru-RU',
+          file: 'ru.js'
+        },
+      ],
+      langDir: 'locales/',
+      defaultLocale: 'en',
+    }]
   ],
 
   router: {
