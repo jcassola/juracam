@@ -51,7 +51,7 @@ export default {
 }
 
 .name{
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 800;
   font-family: 'Yellowtail', cursive;
   color: #241B1B;

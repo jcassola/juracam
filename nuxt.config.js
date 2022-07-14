@@ -25,7 +25,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-        'http://fonts.cdnfonts.com/css/palace-script-mt'
+        'https://fonts.cdnfonts.com/css/palace-script-mt'
       },
       {
         rel: 'stylesheet',

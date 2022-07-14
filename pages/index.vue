@@ -38,8 +38,6 @@ export default {
 
 <style scoped>
   .contact{
-    display: flex;
-    flex-direction: row;
     height: 100%;
     width: 100%;
     margin: auto;
