@@ -1,9 +1,9 @@
 <template>
   <div class="top">
     <div class="quote">
-      <p>Movement is life</p>
-      <p>If you move</p>
-      <p>you live! </p>
+      <p>{{ $t('quoteFirstLine') }}</p>
+      <p>{{ $t('quoteSecondLine') }}</p>
+      <p>{{ $t('quoteThirdLine') }}</p>
     </div>
   </div>
 </template>

@@ -2,8 +2,8 @@
   <div class="credits-center">
     <div class="credit-info">
       <div class="headers">
-        <h1>Work Experience:</h1>
-        <h2>Cameraman:</h2>
+        <h1>{{ $t('workExperience') }}:</h1>
+        <h2>{{ $t('cameraMan') }}:</h2>
       </div>
       <ul>
         <li v-for="item in credits" :key="item">

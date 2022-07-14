@@ -1,6 +1,6 @@
 <template>
   <div class="picture-center">
-    <h1>Photographs</h1>
+    <h1>{{ $t('photographs') }}</h1>
     <carousel :perPage="1" :scrollPerPage="true" class="carousel">
       <slide v-for="(image, index) in pictures" :key="`mobileImg-${index}`">
         <div class="div-pic">

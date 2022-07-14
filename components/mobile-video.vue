@@ -13,7 +13,7 @@
     </div>
     <div class="video-player">
       <h1>
-        <!-- {{ activeVideo.name }} --> Videos
+        {{ $t('videosHeader') }}
       </h1>
       <video :key="mobileVideoKey" autoplay controls>
         <source :src="activeVideo.source" type="video/mp4">

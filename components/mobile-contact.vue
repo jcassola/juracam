@@ -12,13 +12,12 @@
       </div>
       <div class="description">
         <p>
-          Professional Cameraman
-          and Steadicam Operator
+          {{ $t('description') }}
         </p>
       </div>
       <div class="contact-info">
-        <p>EMAIL: <span>jura@juracam.lt</span></p>
-        <p>MOBILE: <span>+370 612 66710</span></p>
+        <p>{{ $t('email') }}: <span>jura@juracam.lt</span></p>
+        <p>{{ $t('mobile') }}: <span>+370 612 66710</span></p>
       </div>
     </div>
   </div>

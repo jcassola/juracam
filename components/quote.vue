@@ -1,8 +1,8 @@
 <template>
   <div>
-    <p>Movement is life</p>
-    <p>If you move</p>
-    <p>you live! </p>
+    <p>{{ $t('quoteFirstLine') }}</p>
+    <p>{{ $t('quoteSecondLine') }}</p>
+    <p>{{ $t('quoteThirdLine') }}</p>
   </div>
 </template>
 
