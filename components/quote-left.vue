@@ -1,7 +1,7 @@
 <template>
   <div class="quote-background">
     <div class="div-quote">
-      <quote class="quote-down"></quote>
+      <quote class="quote-down" />
     </div>
   </div>
 </template>
