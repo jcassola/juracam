@@ -33,6 +33,7 @@ export default {
 <style scoped>
 .pictures{
   position: relative;
+  width: 100%;
 }
 .mobile-contact{
   background: url("assets/pictures/bg/center-bg.png");
