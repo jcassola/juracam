@@ -1,7 +1,10 @@
 <template>
-    <div class="equipment">
-    <quote-left></quote-left>
+  <div class="equipment">
+    <quote-left v-if="!mobile" />
     <div class="equipment-center">
+      <h1 v-if="mobile">
+        Equipment List
+      </h1>
       <ul class="equipment-list">
         <li>1.Post: Cinema Technologies.</li>
         <li>2.Remote Control Focus: Cinema Technologies.</li>
@@ -20,7 +23,17 @@
 <script>
 export default {
   name: 'EquipmentPage',
-  layout: ({ isMobile }) => isMobile ? 'mobile' : 'default'
+  layout: ({ isMobile }) => isMobile ? 'mobile' : 'default',
+  data () {
+    return {
+      windowWidth: window.innerWidth
+    }
+  },
+  computed: {
+    mobile () {
+      return this.windowWidth <= 800
+    }
+  }
 }
 </script>
 
@@ -60,5 +73,32 @@ li{
   word-spacing: .8em;
 
   color: #412712;
+}
+h1{
+  font-family: 'Yellowtail';
+  font-style: normal;
+  font-size: 3em;
+  font-weight: 500;
+  color: #241B1B;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media only screen and (max-width: 800px) {
+  .equipment-center {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-left: 0;
+    border-right: 0;
+    border-top: 7px solid #2F2727;
+    border-bottom: 7px solid #2F2727;
+  }
+  .equipment-list{
+    width: 90%;
+  }
+  li{
+    font-size: .7rem;
+    line-height: 1.2em;
+  }
 }
 </style>

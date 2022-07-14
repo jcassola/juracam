@@ -39,6 +39,9 @@ export default {
 
   width: 100%;
 
+  padding-top: 1em;
+  padding-bottom: 1em;
+
   border-top: 7px solid #2F2727;
   border-bottom: 7px solid #2F2727;
 }
@@ -75,7 +78,7 @@ ul >li{
 h1{
   font-size: 3.5em;
   font-family: 'Yellowtail';
-  font-weight: 800;
+  font-weight: 600;
   margin-bottom: auto;
   color: #241B1B;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

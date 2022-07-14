@@ -1,5 +1,6 @@
 <template>
   <div class="partner-center">
+    <h1>Partners</h1>
     <div class="partner-pictures">
       <div class="partner-div">
         <a href="http://www.arkogints.com/" target="_blank">
@@ -49,6 +50,7 @@ export default {
   background-repeat: no-repeat;
 
   display: flex;
+  flex-direction: column;
 
   border-top: 7px solid #2F2727;
   border-bottom: 7px solid #2F2727;
@@ -64,6 +66,15 @@ export default {
 .partner-pic{
   width: 8em;
   object-fit: cover;
+}
+h1{
+  font-family: 'Yellowtail';
+  text-align: center;
+  font-style: normal;
+  font-size: 3em;
+  font-weight: 600;
+  color: #241B1B;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 </style>
