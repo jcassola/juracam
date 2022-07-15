@@ -1,7 +1,7 @@
 <template>
   <div class="parent">
     <div class="top" />
-    <!-- <language-selector /> -->
+    <language-selector />
     <div class="main">
       <div class="container">
         <nuxt class="pages" />
@@ -13,13 +13,13 @@
 </template>
 
 <script>
-// import LanguageSelector from '~/components/language-selector.vue'
+import LanguageSelector from '~/components/language-selector.vue'
 import NavBar from '~/components/navbar.vue'
 
 export default {
   components: {
     NavBar,
-    // LanguageSelector
+    LanguageSelector
   }
 }
 </script>
