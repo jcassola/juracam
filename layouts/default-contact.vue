@@ -38,14 +38,14 @@ export default {
   .top {
     background: url("assets/pictures/bg/tape-top.png");
     background-position: center;
-    background-repeat: repeat;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .footer {
     background: url("assets/pictures/bg/tape-bottom.png");
     background-position: center;
-    background-repeat: repeat;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .main{
     height: 72%;
