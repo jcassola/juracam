@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="parent">
+    <div class="top" />
     <language-selector />
     <div class="main">
       <div class="container">
@@ -7,6 +8,7 @@
         <NavBar class="my-navbar" />
       </div>
     </div>
+    <div class="footer" />
   </div>
 </template>
 
@@ -23,15 +25,23 @@ export default {
 </script>
 
 <style scoped>
-  .main{
-    background: url("assets/pictures/bg/tapes.svg");
+  .parent{
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 100vw;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: contain;
+  }
+  .top, .footer {
+    height: 14%;
+    width: 100%;
+    background-color: black;
+  }
+  .main{
+    height: 72%;
+    width: 100%;
 
     display: flex;
+    flex-direction: row;
     align-items: center;
   }
   .pages{
@@ -42,10 +52,8 @@ export default {
   .container{
     display: flex;
     flex-direction: row;
-    height: 76%;
+    height: 100%;
     width: 100%;
-    margin-top: 10px;
-
   }
   .my-navbar{
     width: 25%;
