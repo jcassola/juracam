@@ -30,7 +30,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-        'https://db.onlinewebfonts.com/c/132e124d37c13ab350cd3cfbb789ac48?family=Monospac821+BT'
+        'https://fonts.cdnfonts.com/css/monospac821-bt'
       }
     ]
   },
