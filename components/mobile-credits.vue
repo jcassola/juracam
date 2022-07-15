@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import { credits } from '@/assets/content'
+import { credits } from '~/assets/credits'
 export default {
   data () {
     return {

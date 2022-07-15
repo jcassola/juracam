@@ -1,70 +1,16 @@
+import { videosList } from '@/assets/videos-list'
+import { picturesList } from '@/assets/pictures-list'
+
 export const state = () => ({
   activeVideo: {
-    source: '' || '/videos/one.mp4',
-    name: '' || 'One'
+    source: '' || videosList[0].source,
+    name: '' || videosList[0].name
   },
   activeImg: {
-    source: '' || '/pictures/one.jpg'
+    source: '' || picturesList[0].source
   },
-  videos: [
-    {
-      source: '/videos/one.mp4',
-      name: 'One'
-    },
-    {
-      source: '/videos/two.mp4',
-      name: 'Two'
-    },
-    {
-      source: '/videos/one.mp4',
-      name: 'Three'
-    },
-    {
-      source: '/videos/one.mp4',
-      name: 'Four'
-    },
-    {
-      source: '/videos/one.mp4',
-      name: 'Five'
-    },
-    {
-      source: '/videos/one.mp4',
-      name: 'Six'
-    },
-    {
-      source: '/videos/one.mp4',
-      name: 'Seven'
-    },
-    {
-      source: '/videos/one.mp4',
-      name: 'Eight'
-    },
-    {
-      source: '/videos/one.mp4',
-      name: 'Nine'
-    },
-    {
-      source: '/videos/one.mp4',
-      name: 'Ten'
-    }
-  ],
-  pictures: [
-    {
-      source: '/pictures/one.jpg'
-    },
-    {
-      source: '/pictures/two.jpg'
-    },
-    {
-      source: '/pictures/three.jpg'
-    },
-    {
-      source: '/pictures/one.jpg'
-    },
-    {
-      source: '/pictures/two.jpg'
-    }
-  ]
+  videos: videosList,
+  pictures: picturesList
 })
 
 export const mutations = {
