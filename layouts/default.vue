@@ -31,10 +31,21 @@ export default {
     height: 100vh;
     width: 100vw;
   }
-  .top, .footer {
+  .top, .footer{
     height: 14%;
     width: 100%;
-    background-color: black;
+  }
+  .top {
+    background: url("assets/pictures/bg/tape-top.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+  }
+  .footer {
+    background: url("assets/pictures/bg/tape-bottom.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
   }
   .main{
     height: 72%;
