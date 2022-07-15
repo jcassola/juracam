@@ -9,7 +9,6 @@
           <nuxt-link
             class="link"
             :to="localePath(link.text)"
-            :class="{ active: $route.path === link.url }"
           >
             {{ $t(link.text) }}
           </nuxt-link>
@@ -55,7 +54,11 @@ div {
   height: 100%;
 }
 
-.active {
+/* .active {
+  color: #412712 !important;
+  text-decoration: underline !important;
+} */
+.nuxt-link-exact-active{
   color: #412712 !important;
   text-decoration: underline !important;
 }
