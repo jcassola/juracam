@@ -43,15 +43,12 @@ export default {
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
-    background-color: black;
   }
   .right {
     background: url("assets/pictures/bg/tape-right.png");
     background-position: center;
     background-repeat: repeat;
     background-size: contain;
-    background-color: black;
-
   }
   .main{
     width: 80%;
