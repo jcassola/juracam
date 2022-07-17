@@ -16,7 +16,7 @@ export default {
   div{
     display: flex;
     flex-direction: column;
-    align-items: right;
+    align-items: center;
     text-align: right;
     width: 100%;
     gap:.5em

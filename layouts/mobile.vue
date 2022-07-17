@@ -37,18 +37,11 @@ export default {
   .left, .right{
     width: 10%;
     overflow-y: scroll;
-  }
-  .left {
-    background: url("assets/pictures/bg/tape-left.png");
+
+    background: url("assets/pictures/bg/tape-vertical.png");
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
-  }
-  .right {
-    background: url("assets/pictures/bg/tape-right.png");
-    background-position: center;
-    background-repeat: repeat;
-    background-size: contain;
   }
   .main{
     width: 80%;

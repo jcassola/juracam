@@ -79,8 +79,8 @@ export default {
 }
 .fire{
   transform: rotateY(180deg);
-
-  margin-top: 6px;
+  margin-top: 10%;
+  height: 100%;
   width: 100%;
   position: absolute;
 }
@@ -88,7 +88,7 @@ export default {
   object-fit: cover;
   object-position: right;
   width: 38%;
-  height: 40%;
+  height: 100%;
 }
 .yessir{
   width: 20em;
