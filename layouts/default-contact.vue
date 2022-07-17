@@ -1,14 +1,18 @@
 <template>
   <div class="parent">
-    <div class="top" />
     <language-selector />
+    <div class="top">
+      <img class="tapes" src="~/assets/pictures/bg/tapes-top.png">
+    </div>
     <div class="main">
       <div class="container">
         <nuxt class="pages" />
         <NavBar class="my-navbar" />
       </div>
     </div>
-    <div class="footer" />
+    <div class="footer">
+      <img class="tapes" src="~/assets/pictures/bg/tapes-top.png">
+    </div>
   </div>
 </template>
 
@@ -28,29 +32,34 @@ export default {
   .parent{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: 100vh;
     width: 100vw;
+
   }
   .top, .footer{
-    height: 14%;
+    position: absolute;
+    height: 12%;
     width: 100%;
+    z-index: 1000;
   }
   .top {
-    background: url("assets/pictures/bg/tape-top.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    top: 0;
   }
   .footer {
-    background: url("assets/pictures/bg/tape-bottom.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    bottom: 0;
+  }
+  .footer > img{
+    transform: rotateX(180deg);
+  }
+  img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
   }
   .main{
-    height: 72%;
-    width: 100%;
-
+    height: 90%;
     display: flex;
     flex-direction: row;
     align-items: center;
