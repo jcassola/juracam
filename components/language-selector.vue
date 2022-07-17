@@ -30,4 +30,10 @@ export default {
     padding: 5px;
     outline: none;
 }
+@media only screen and (max-width: 800px) {
+  div {
+    top: 0;
+    margin-left: 10%;
+  }
+}
 </style>

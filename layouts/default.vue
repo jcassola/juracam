@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="footer">
-      <img class="tapes" src="~/assets/pictures/bg/tapes-bottom.png">
+      <img class="tapes" src="~/assets/pictures/bg/tapes-top.png">
     </div>
   </div>
 </template>
@@ -38,7 +38,7 @@ export default {
   }
   .top, .footer{
     position: absolute;
-    height: 13%;
+    height: 12%;
     width: 100%;
     z-index: 1000;
   }
@@ -47,6 +47,9 @@ export default {
   }
   .footer {
     bottom: 0;
+  }
+  .footer > img{
+    transform: rotateX(180deg);
   }
   img{
     position: absolute;

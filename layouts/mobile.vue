@@ -1,7 +1,7 @@
 <template>
   <div class="parent">
     <div class="left" />
-    <language-selector class="language" />
+    <language-selector />
     <div class="main">
       <div class="container">
         <mobile-top />
@@ -66,10 +66,6 @@ export default {
   .my-navbar{
     width: 100%;
     margin-top: auto;
-  }
-  .language{
-    margin-top: 0;
-    margin-left: 10%;
   }
 
 </style>

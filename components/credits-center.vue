@@ -44,7 +44,7 @@ export default {
   border-right: 7px solid #2F2727;
 }
 .credit-info{
-  height: 100%;
+  height: 90%;
   width: 90%;
   display: flex;
   flex-direction: column;

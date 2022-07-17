@@ -20,7 +20,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-        'https://fonts.googleapis.com/css2?family=Yellowtail&display=swap'
+        'https://fonts.cdnfonts.com/css/yellowtail'
       },
       {
         rel: 'stylesheet',

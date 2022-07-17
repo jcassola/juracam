@@ -62,8 +62,7 @@ export default {
   height: 50%;
 }
 ul{
-  margin-top: 2em;
-  /* position: absolute; */
+  margin-top: 20%;
   width: 90%;
   height:100%;
   overflow: hidden;
