@@ -20,7 +20,7 @@ export default {
   div{
     position: absolute;
     z-index: 100;
-    top: 15%;
+    top: 12%;
   }
   select, option{
     color: white;
