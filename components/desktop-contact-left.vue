@@ -24,7 +24,6 @@ export default {
   }
   .yessir{
     width: 150%;
-    /* height: 90%; */
     position: absolute;
     right: -60%;
     bottom: 0;
