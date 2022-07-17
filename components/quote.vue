@@ -1,8 +1,14 @@
 <template>
   <div>
-    <p>{{ $t('quoteFirstLine') }}</p>
-    <p>{{ $t('quoteSecondLine') }}</p>
-    <p>{{ $t('quoteThirdLine') }}</p>
+    <p class="line-one">
+      {{ $t('quoteFirstLine') }}
+    </p>
+    <p class="line-two">
+      {{ $t('quoteSecondLine') }}
+    </p>
+    <p class="line-three">
+      {{ $t('quoteThirdLine') }}
+    </p>
   </div>
 </template>
 
@@ -16,10 +22,11 @@ export default {
   div{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     text-align: right;
     width: 100%;
-    gap:.5em
+    /* gap:.5em */
+    padding: 1em;
   }
   p{
     font-family: 'Palace Script MT', sans-serif;
@@ -28,5 +35,14 @@ export default {
     font-size: 4em;
     line-height: 65px;
     color: white;
+  }
+  .line-one{
+    text-align: left;
+  }
+  .line-two{
+    text-align: center;
+  }
+  .line-three{
+    text-align: right;
   }
 </style>
