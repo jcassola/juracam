@@ -52,7 +52,7 @@ export default {
   .footer > img{
     transform: rotateX(180deg);
   }
-  img{
+  .tapes{
     position: absolute;
     height: 100%;
     width: 100%;

@@ -36,9 +36,8 @@ export default {
   }
   .left, .right{
     width: 10%;
-    overflow-y: scroll;
 
-    background: url("assets/pictures/bg/tape-vertical.png");
+    background: url("assets/pictures/bg/tapes-vertical.png");
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
