@@ -37,7 +37,7 @@ export default {
   .left, .right{
     width: 10%;
 
-    background: url("assets/pictures/bg/tape-vertical.png"), url("assets/pictures/bg/bg-vertical.png");
+    background: url("assets/pictures/bg/tape-vertical.png"), url("assets/pictures/bg/bg-vertical-2.png");
     background-position: center;
     background-repeat: repeat;
     background-size: cover, contain;
