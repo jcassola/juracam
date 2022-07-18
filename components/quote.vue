@@ -22,10 +22,8 @@ export default {
   div{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     text-align: right;
     width: 100%;
-    /* gap:.5em */
     padding: 1em;
   }
   p{
@@ -33,7 +31,7 @@ export default {
     font-style: italic;
     font-weight: 400;
     font-size: 4em;
-    line-height: 65px;
+    line-height: 3.8rem;
     color: white;
   }
   .line-one{
