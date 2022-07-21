@@ -8,7 +8,7 @@ export default {
     equipment: 'Equipment List',
 
     // Contacts page
-    description: 'Professional Cameraman and Steadicam Operator',
+    description: 'Cameraman and Steadicam Operator',
     email: 'EMAIL',
     mobile: 'MOBILE',
 
