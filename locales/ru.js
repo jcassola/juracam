@@ -12,6 +12,9 @@ export default {
   mobile: 'МОБИЛЬНЫЙ',
 
   // Translate to Russian only content between ''
+  // Translate button
+  languageButton: 'Pyasdasd',
+
   // Quote
   quoteFirstLine: 'Movement is life',
   quoteSecondLine: 'If you move',

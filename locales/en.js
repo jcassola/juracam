@@ -12,6 +12,9 @@ export default {
     email: 'EMAIL',
     mobile: 'MOBILE',
 
+    // Translate button
+    languageButton: 'Russian',
+
     // Quote
     quoteFirstLine: 'Movement is life',
     quoteSecondLine: 'If you move',

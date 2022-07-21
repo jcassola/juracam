@@ -5,7 +5,7 @@
         English
       </option>
       <option value="ru">
-        Russian
+        {{ $t('languageButton') }}
       </option>
     </select>
   </div>

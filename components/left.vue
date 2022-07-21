@@ -1,6 +1,6 @@
 <template>
   <div class="partners-left">
-    <quote></quote>
+    <quote />
   </div>
 </template>
 
