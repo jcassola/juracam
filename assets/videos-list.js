@@ -2,42 +2,42 @@
 export const videosList = [
   {
     source: '/videos/one.mp4',
-    name: 'One'
+    name: 'one'
   },
   {
     source: '/videos/two.mp4',
-    name: 'Two'
+    name: 'two'
   },
   {
     source: '/videos/one.mp4',
-    name: 'Three'
+    name: 'three'
   },
   {
     source: '/videos/one.mp4',
-    name: 'Four'
+    name: 'four'
   },
   {
     source: '/videos/one.mp4',
-    name: 'Five'
+    name: 'five'
   },
   {
     source: '/videos/one.mp4',
-    name: 'Six'
+    name: 'six'
   },
   {
     source: '/videos/one.mp4',
-    name: 'Seven'
+    name: 'seven'
   },
   {
     source: '/videos/one.mp4',
-    name: 'Eight'
+    name: 'eight'
   },
   {
     source: '/videos/one.mp4',
-    name: 'Nine'
+    name: 'nine'
   },
   {
     source: '/videos/one.mp4',
-    name: 'Ten'
+    name: 'ten'
   }
 ]

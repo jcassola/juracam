@@ -1,7 +1,7 @@
 <template>
   <div class="video-center">
     <h1>
-      {{ activeVideo.name }}
+      {{ $t(`videoNames.${activeVideo.name}`) }}
     </h1>
     <video :key="videoKey" autoplay controls>
       <source :src="activeVideo.source" type="video/mp4">

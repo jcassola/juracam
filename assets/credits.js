@@ -1,4 +1,5 @@
 export const credits = [
+'Cameraman: ',
 '2011 “Commanda 8“RU.Director: Aleksandr Aravin;D.O.P.: Viktor Sheynin ',
 '2011 “Piranhas“RU. Director: Аleksandr Aravin;D.O.P.: Viktor Sheynin ',
 '2011 “Commanda 8“RU.Director: Aleksandr Aravin;D.O.P.: Viktor Sheynin ',

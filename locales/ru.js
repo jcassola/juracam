@@ -22,7 +22,6 @@ export default {
 
   // Credits
   workExperience: 'Work Experience',
-  cameraMan: 'Cameraman',
 
   // Mobile Videos
   videosHeader: 'Videos',
@@ -37,5 +36,18 @@ export default {
   creditsHeader: 'Credits',
 
   // Mobile Equipment
-  equipmentHeader: 'Equipment List'
+  equipmentHeader: 'Equipment List',
+
+  videoNames: {
+    one: 'один',
+    two: 'Два',
+    three: 'Три',
+    four: 'Четыре',
+    five: 'Пять',
+    six: 'Шесть',
+    seven: 'Семь',
+    eight: 'Восемь',
+    nine: 'Девять',
+    ten: 'десять',
+  }
 }

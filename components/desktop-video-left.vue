@@ -1,20 +1,17 @@
 <template>
   <div class="video-left">
-    <!-- <img class="transparent" src="~/assets/pictures/bg/transparent.svg"> -->
     <div class="video-list">
       <ul>
         <li v-for="(templateVideo, index) in videos" :key="`video-${index}`">
           <a
             :class="{ active: templateVideo.name === activeVideo.name}"
             @click="setActiveVideo(templateVideo)"
-          > {{ index+1 }}.{{ templateVideo.name }}
+          > {{ index+1 }}.{{ $t(`videoNames.${templateVideo.name}`) }}
           </a>
         </li>
       </ul>
     </div>
-    <!-- <div class="div-quote"> -->
     <quote class="quote" />
-    <!-- </div> -->
   </div>
 </template>
 

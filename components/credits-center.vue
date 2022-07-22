@@ -3,7 +3,6 @@
     <div class="credit-info">
       <div class="headers">
         <h1>{{ $t('workExperience') }}:</h1>
-        <h2>{{ $t('cameraMan') }}:</h2>
       </div>
       <ul>
         <li v-for="item in credits" :key="item">
@@ -73,15 +72,10 @@ ul >li{
 .headers{
   margin-right: auto;
 }
-h1, h2{
+h1{
   font-family: 'Monospac821 BT';
   font-weight: 1000;
   margin-bottom: auto;
-}
-h1{
   font-size: 2.5em;
-}
-h2{
-  font-size: 1.2em;
 }
 </style>
