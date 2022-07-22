@@ -55,19 +55,15 @@ export default {
 
 <style scoped>
 .mobile-video{
-  background: url("assets/pictures/bg/center-bg-shorter.png");
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url("assets/pictures/bg/tape-left.png") left no-repeat, url("assets/pictures/bg/tape-right.png") right no-repeat, url("assets/pictures/bg/center-bg-shorter.png") top no-repeat;
+  background-size: 10%, 10%, auto;
 
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding-bottom: 1em;
-  padding-top: 1em;
+  padding: 1em 3em;
 
   margin-top: -7px;
-  /* margin-bottom: -7px; */
   border-top: 7px solid #2F2727;
   border-bottom: 7px solid #2F2727;
 }

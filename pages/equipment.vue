@@ -88,6 +88,8 @@ h1{
     width: 100%;
   }
   .equipment-center {
+    background: url("assets/pictures/bg/tape-left.png") left no-repeat, url("assets/pictures/bg/tape-right.png") right no-repeat, url("assets/pictures/bg/center-bg-shorter.png") top no-repeat;
+    background-size: 10%, 10%, auto;
     width: 100%;
     flex-direction: column;
     padding-top: 1.5em;
