@@ -38,7 +38,7 @@ export default {
   justify-content: center;
   align-items: center;
 
-  width: 75%;
+  width: 51%;
 
   border-left: 7px solid #2F2727;
   border-right: 7px solid #2F2727;
@@ -82,6 +82,6 @@ h1{
   font-size: 2.5em;
 }
 h2{
-  font-size: 2em;
+  font-size: 1em;
 }
 </style>

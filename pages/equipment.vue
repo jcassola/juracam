@@ -40,8 +40,9 @@ export default {
 <style scoped>
 .equipment{
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
+  margin: auto;
 }
 .equipment-center{
   background: url("assets/pictures/bg/center-bg-shorter.png");
@@ -54,7 +55,7 @@ export default {
   justify-content: center;
   align-items: center;
 
-  width: 75%;
+  width: 51%;
   border-left: 7px solid #2F2727;
   border-right: 7px solid #2F2727;
 }
@@ -68,7 +69,7 @@ li{
   font-family: 'Monospac821 BT';
   font-style: normal;
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 1em;
   line-height: 2em;
   word-spacing: .8em;
 

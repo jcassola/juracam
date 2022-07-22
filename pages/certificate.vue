@@ -31,8 +31,8 @@ export default {
 <style scoped>
 .certificate{
   display: flex;
-  width: 100%;
   height: 100%;
+  margin: auto;
 }
 .certificate-center{
   background: url("assets/pictures/bg/center-bg-shorter.png");
@@ -45,7 +45,7 @@ export default {
   justify-content: center;
   gap: 2em;
 
-  width: 75%;
+  width: 51%;
   border-left: 7px solid #2F2727;
   border-right: 7px solid #2F2727;
 }
