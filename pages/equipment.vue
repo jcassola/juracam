@@ -84,6 +84,9 @@ h1{
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 @media only screen and (max-width: 800px) {
+  .equipment{
+    width: 100%;
+  }
   .equipment-center {
     width: 100%;
     flex-direction: column;
@@ -95,7 +98,7 @@ h1{
     border-bottom: 7px solid #2F2727;
   }
   .equipment-list{
-    width: 90%;
+    width: 75%;
   }
   li{
     font-size: .7rem;

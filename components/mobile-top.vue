@@ -17,10 +17,8 @@ export default {
 
 <style scoped>
 .top {
-  background: url("assets/pictures/bg/navbar-bg.png");
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url("assets/pictures/bg/tape-left.png") left no-repeat, url("assets/pictures/bg/tape-right.png") right no-repeat, url("assets/pictures/bg/navbar-bg.png") top no-repeat;
+  background-size: 10%, 10%, auto;
 
   display: flex;
   flex-direction: row;
@@ -34,7 +32,8 @@ export default {
   display: flex;
   flex-direction: column;
   text-align: right;
-  width: 80%;
+  width: 100%;
+  margin-right: 11%;
 }
 p{
   display: block;

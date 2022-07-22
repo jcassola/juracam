@@ -24,10 +24,8 @@ export default {
 <style scoped>
 .mobile-contact{
   /* background: url("assets/pictures/bg/tape-vertical.png"), url("assets/pictures/bg/tape-vertical.png"), url("assets/pictures/bg/center-bg-shorter.png"); */
-  background: url("assets/pictures/bg/tape-vertical-2.png") left no-repeat, url("assets/pictures/bg/tape-vertical-3.png") right no-repeat, url("assets/pictures/bg/yessir-mobile.png") right bottom no-repeat, url("assets/pictures/bg/fire-mobile.png") right bottom no-repeat, url("assets/pictures/bg/center-bg-shorter.png") top no-repeat;
-  /* background-position: left right top; */
+  background: url("assets/pictures/bg/tape-left.png") left no-repeat, url("assets/pictures/bg/tape-right.png") right no-repeat, url("assets/pictures/bg/yessir-mobile.png") right bottom no-repeat, url("assets/pictures/bg/fire-mobile.png") right bottom no-repeat, url("assets/pictures/bg/center-bg-shorter.png") top no-repeat;
   background-size: 10%, 10%, 60%, 50%, auto;
-  background-repeat: no-repeat;
 
   display: flex;
   flex-direction: column;

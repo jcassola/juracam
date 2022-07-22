@@ -87,7 +87,8 @@ li {
 }
 @media only screen and (max-width: 800px) {
   div {
-    background-position: top;
+    background: url("assets/pictures/bg/tape-left.png") left no-repeat, url("assets/pictures/bg/tape-right.png") right no-repeat, url("assets/pictures/bg/navbar-bg.png") top no-repeat;
+    background-size: 10%, 10%, auto;
   }
 }
 </style>
