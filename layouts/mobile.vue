@@ -35,15 +35,15 @@ export default {
     overflow: scroll;
   }
   .left, .right{
-    width: 10%;
+    width: 0%;
 
-    background: url("assets/pictures/bg/tape-vertical.png"), url("assets/pictures/bg/bg-vertical.png");
+    /* background: url("assets/pictures/bg/tape-vertical.png"), url("assets/pictures/bg/bg-vertical.png"); */
     background-position: center;
     background-repeat: repeat;
     background-size: cover, contain;
   }
   .main{
-    width: 80%;
+    width: 100%;
     height: 100%;
 
     display: flex;

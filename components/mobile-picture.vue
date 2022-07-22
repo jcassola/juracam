@@ -66,7 +66,7 @@ export default {
     justify-content: center;
   }
   .cover{
-    width: 90%;
+    width: 70%;
     height: 100%;
     object-fit: contain;
     object-position: center;

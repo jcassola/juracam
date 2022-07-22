@@ -1,24 +1,16 @@
 <template>
-  <div class="pictures">
-    <div class="fire">
-      <img src="~/assets/pictures/bg/fire.svg">
+  <div class="mobile-contact">
+    <div class="name">
+      <h1>Jurij Charčiuk</h1>
     </div>
-    <div class="yessir">
-      <img src="~/assets/pictures/bg/yessir.svg">
+    <div class="description">
+      <p>
+        {{ $t('description') }}
+      </p>
     </div>
-    <div class="mobile-contact">
-      <div class="name">
-        <h1>Jurij Charčiuk</h1>
-      </div>
-      <div class="description">
-        <p>
-          {{ $t('description') }}
-        </p>
-      </div>
-      <div class="contact-info">
-        <p>{{ $t('email') }}: <span>jura@juracam.lt</span></p>
-        <p>{{ $t('mobile') }}: <span>+370 612 66710</span></p>
-      </div>
+    <div class="contact-info">
+      <p>{{ $t('email') }}: <span>jura@juracam.lt</span></p>
+      <p>{{ $t('mobile') }}: <span>+370 612 66710</span></p>
     </div>
   </div>
 </template>
@@ -30,14 +22,11 @@ export default {
 </script>
 
 <style scoped>
-.pictures{
-  position: relative;
-  width: 100%;
-}
 .mobile-contact{
-  background: url("assets/pictures/bg/center-bg-shorter.png");
-  background-position: top;
-  background-size: cover;
+  /* background: url("assets/pictures/bg/tape-vertical.png"), url("assets/pictures/bg/tape-vertical.png"), url("assets/pictures/bg/center-bg-shorter.png"); */
+  background: url("assets/pictures/bg/tape-vertical-2.png") left no-repeat, url("assets/pictures/bg/tape-vertical-3.png") right no-repeat, url("assets/pictures/bg/yessir-mobile.png") right bottom no-repeat, url("assets/pictures/bg/fire-mobile.png") right bottom no-repeat, url("assets/pictures/bg/center-bg-shorter.png") top no-repeat;
+  /* background-position: left right top; */
+  background-size: 10%, 10%, 60%, 50%, auto;
   background-repeat: no-repeat;
 
   display: flex;
@@ -50,7 +39,9 @@ export default {
   border-top: 7px solid #2F2727;
   border-bottom: 7px solid #2F2727;
 }
-
+.name, .description, .contact-info{
+  margin-left: 10%;
+}
 .name{
   font-size: 1.3em;
   font-weight: 800;
@@ -60,7 +51,7 @@ export default {
   margin-top: 3em;
 }
 .description{
-  max-width: 50%;
+  max-width: 40%;
 }
 .description > p{
   font-family: 'High Tower Text', cursive;
@@ -69,6 +60,9 @@ export default {
   color: #241B1B;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.contact-info{
+  width: 40%;
+}
 .contact-info > p{
   font-size: 1.1em;
   font-weight: 700;
@@ -76,30 +70,5 @@ export default {
 .contact-info > p > span{
   font-size: 0.9em;
   font-weight: 700;
-}
-.fire{
-  transform: rotateY(180deg);
-  margin-top: 10%;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-.fire > img{
-  object-fit: cover;
-  object-position: right;
-  width: 38%;
-  height: 100%;
-}
-.yessir{
-  width: 20em;
-}
-.yessir > img{
-  object-fit: cover;
-  object-position: right;
-  transform: rotateY(180deg);
-  width: 100%;
-  height: 20em;
-  position: absolute;
-  bottom: 6px;
 }
 </style>

@@ -58,10 +58,13 @@ img{
   object-fit: contain;
 }
 @media only screen and (max-width: 800px) {
+  .certificate{
+    width: 100%;
+  }
   .certificate-center {
     width: 100%;
     flex-direction: row;
-    padding: 1.5em;
+    padding: 4.5em;
     border-left: 0;
     border-right: 0;
     border-top: 7px solid #2F2727;
