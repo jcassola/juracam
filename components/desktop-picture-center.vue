@@ -37,11 +37,12 @@ export default {
   justify-content: center;
   align-items: center;
 
-  width: 75%;
+  width: 51%;
   border-left: 7px solid #2F2727;
   border-right: 7px solid #2F2727;
 }
 img{
+  width: 80%;
   object-fit: contain;
 }
 </style>

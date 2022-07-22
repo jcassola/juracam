@@ -41,7 +41,7 @@ computed: {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 28%;
+    width: 49%;
     height: 100%;
 
     display: flex;
@@ -52,8 +52,8 @@ computed: {
   height: 50%;
 }
 ul{
-  margin-top: 20%;
-  width: 90%;
+  margin-top: 12%;
+  width: 70%;
   height:100%;
   overflow: hidden;
   overflow-y: scroll;

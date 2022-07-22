@@ -52,7 +52,7 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
-    width: 28%;
+    width: 49%;
 
     display: flex;
     flex-direction: column;
@@ -62,7 +62,7 @@ export default {
   height: 50%;
 }
 ul{
-  margin-top: 20%;
+  margin-top: 12%;
   width: 90%;
   height:100%;
   overflow: hidden;

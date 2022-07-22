@@ -20,7 +20,7 @@ export default {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 25%;
+    width: 49%;
 }
 .div-quote{
   height: 100%;

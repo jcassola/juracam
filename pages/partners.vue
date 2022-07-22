@@ -37,7 +37,8 @@ export default {
 <style scoped>
   .partners{
     display: flex;
-    width: 100%;
     height: 100%;
+    width: 100%;
+    margin: auto;
   }
 </style>

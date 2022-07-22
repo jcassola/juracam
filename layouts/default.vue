@@ -35,6 +35,7 @@ export default {
     justify-content: center;
     height: 100vh;
     width: 100vw;
+
   }
   .top, .footer{
     position: absolute;
@@ -51,7 +52,7 @@ export default {
   .footer > img{
     transform: rotateX(180deg);
   }
-  img{
+  .tapes{
     position: absolute;
     height: 100%;
     width: 100%;
@@ -66,7 +67,7 @@ export default {
   .pages{
     display: flex;
     flex-direction: row;
-    width: 75%;
+    width: 66.66%;
   }
   .container{
     display: flex;
@@ -75,7 +76,7 @@ export default {
     width: 100%;
   }
   .my-navbar{
-    width: 25%;
+    width: 33.33%;
     margin-left: auto;
   }
 

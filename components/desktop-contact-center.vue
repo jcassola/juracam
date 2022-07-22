@@ -32,7 +32,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   gap: 2em;
-  width: 100%;
+  width: 51%;
 
   border-left: 7px solid #2F2727;
   border-right: 7px solid #2F2727;

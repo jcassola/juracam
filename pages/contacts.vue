@@ -22,7 +22,7 @@ export default {
     desktopContactLeft,
     MobileContact
     },
-  layout: ({ isMobile }) => isMobile ? 'mobile' : 'default-contact',
+  layout: ({ isMobile }) => isMobile ? 'mobile' : 'default',
   data () {
     return {
       windowWidth: window.innerWidth
@@ -48,7 +48,7 @@ export default {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 49%;
 }
 @media only screen and (max-width: 600px) {
   .contact {
