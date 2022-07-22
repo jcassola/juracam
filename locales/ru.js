@@ -13,7 +13,7 @@ export default {
 
   // Translate to Russian only content between ''
   // Translate button
-  languageButton: 'Pyasdasd',
+  languageButton: 'Русский',
 
   // Quote
   quoteFirstLine: 'Movement is life',
