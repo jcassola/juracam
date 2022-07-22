@@ -6,7 +6,7 @@
           <a
             :class="{ active: templateVideo.name === activeVideo.name}"
             @click="setActiveVideo(templateVideo)"
-          > {{ index+1 }}.{{ templateVideo.name }}
+          > {{ index+1 }}.{{ $t(`videoNames.${templateVideo.name}`) }}
           </a>
         </li>
       </ul>

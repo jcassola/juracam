@@ -5,7 +5,7 @@
         <h1>{{ $t('creditsHeader') }}</h1>
       </div>
       <ul>
-        <li v-for="item in credits" :key="item">
+        <li v-for="item in $t('creditsList')" :key="item">
           {{ item }}
         </li>
       </ul>
@@ -14,13 +14,7 @@
 </template>
 
 <script>
-import { credits } from '~/assets/credits'
 export default {
-  data () {
-    return {
-      credits
-    }
-  }
 }
 </script>
 
