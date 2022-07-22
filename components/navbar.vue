@@ -74,7 +74,7 @@ ul {
 .link {
   font-family: "Yellowtail", cursive;
   color: #ffffff;
-  font-size: 40px;
+  font-size: 2.5rem;
   text-decoration: none;
   text-align: center;
 

@@ -67,7 +67,7 @@ ul >li{
   font-family: 'Monospac821 BT';
   font-style: normal;
   font-weight: 1000;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 2em;
 }
 .headers{
@@ -82,6 +82,6 @@ h1{
   font-size: 2.5em;
 }
 h2{
-  font-size: 1em;
+  font-size: 1.2em;
 }
 </style>
