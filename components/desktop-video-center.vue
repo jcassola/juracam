@@ -3,9 +3,13 @@
     <h1>
       {{ $t(`videoNames.${activeVideo.name}`) }}
     </h1>
-    <video :key="videoKey" autoplay controls>
-      <source :src="activeVideo.source" type="video/mp4">
-    </video>
+    <div class="video-player">
+      <i class="arrow left" />
+      <video :key="videoKey" autoplay controls>
+        <source :src="activeVideo.source" type="video/mp4">
+      </video>
+      <i class="arrow right" />
+    </div>
   </div>
 </template>
 
@@ -61,5 +65,26 @@ h1{
   color: #241B1B;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin: 0 auto;
+}
+.video-player{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2em;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: .8em;
+  cursor: pointer;
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
 </style>
