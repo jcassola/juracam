@@ -61,12 +61,12 @@ export default {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 4em;
+  column-gap: 3em;
   align-items: center;
   justify-content: center;
 }
 .partner-pic{
-  width: 13em;
+  width: 8.5em;
   object-fit: cover;
 }
 @media only screen and (max-width: 800px) {
