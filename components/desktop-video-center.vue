@@ -4,11 +4,11 @@
       {{ $t(`videoNames.${activeVideo.name}`) }}
     </h1>
     <div class="video-player">
-      <i class="arrow left" />
+      <i :class="{ disabled : videos[0] === activeVideo }" class="arrow left" @click="previousVideo" />
       <video :key="videoKey" autoplay controls>
         <source :src="activeVideo.source" type="video/mp4">
       </video>
-      <i class="arrow right" />
+      <i :class="{ disabled : videos.at(-1) === activeVideo }" class="arrow right" @click="nextVideo" />
     </div>
   </div>
 </template>
@@ -24,7 +24,7 @@ export default {
     }
   },
   computed: mapState([
-    'activeVideo'
+    'videos', 'activeVideo'
   ]),
   watch: {
     'activeVideo' () {
@@ -32,10 +32,13 @@ export default {
     }
   },
   methods: {
-    setActiveVideo (video) {
-      this.$store.commit('setActiveVideo', video)
-    }
-  },
+    nextVideo () {
+      this.$store.commit('playNextVideo')
+    },
+    previousVideo () {
+      this.$store.commit('playPreviousVideo')
+    },
+  }
 }
 </script>
 
@@ -86,5 +89,8 @@ h1{
 .right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+}
+.disabled{
+  visibility: hidden;
 }
 </style>

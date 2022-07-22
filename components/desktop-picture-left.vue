@@ -11,9 +11,7 @@
         </li>
       </ul>
     </div>
-    <!-- <div class="div-quote"> -->
     <quote class="quote" />
-    <!-- </div> -->
   </div>
 </template>
 

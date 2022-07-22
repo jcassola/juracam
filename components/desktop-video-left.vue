@@ -5,7 +5,7 @@
         <li v-for="(templateVideo, index) in videos" :key="`video-${index}`">
           <a
             :class="{ active: templateVideo.name === activeVideo.name}"
-            @click="setActiveVideo(templateVideo)"
+            @click="setActiveVideo(templateVideo, index)"
           > {{ index+1 }}.{{ $t(`videoNames.${templateVideo.name}`) }}
           </a>
         </li>
@@ -22,11 +22,6 @@ import quote from './quote.vue'
 
 export default {
   components: { quote },
-  data () {
-    return {
-      counter: 0
-    }
-  },
   computed: {
     ...mapState(['videos', 'activeVideo'
     ])
@@ -34,9 +29,6 @@ export default {
   methods: {
     setActiveVideo (video) {
       this.$store.commit('setActiveVideo', video)
-    },
-    counterPlus () {
-      return this.counter++
     }
   }
 }
