@@ -35,16 +35,16 @@ computed: {
 
 <style scoped>
 .picture-left{
-    background: url("assets/pictures/bg/transparent-bg.png"), url("assets/pictures/bg/left-bg.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 49%;
-    height: 100%;
+  background: url("assets/pictures/bg/transparent-bg.png"), url("assets/pictures/bg/left-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 49%;
+  height: 100%;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .picture-list{
   height: 50%;
@@ -65,15 +65,8 @@ ul{
 li{
   margin-bottom: 10px;
 }
-/* .div-quote{
-  height: 50%;
-  display: flex;
-} */
 
 .quote{
   height: 35%;
-  /* display: flex; */
-  /* align-items: center; */
-  /* display: flex; */
 }
 </style>
