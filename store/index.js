@@ -25,5 +25,13 @@ export const mutations = {
 
   setActiveImg (state, img) {
     state.activeImg = img
-  }
+  },
+  showNextImg (state) {
+    const index = state.pictures.indexOf(state.activeImg)
+    state.activeImg = state.pictures[index + 1]
+  },
+  showPreviousImg (state) {
+    const index = state.pictures.indexOf(state.activeImg)
+    state.activeImg = state.pictures[index - 1]
+  },
 }

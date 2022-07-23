@@ -5,7 +5,7 @@
         <li v-for="(templateVideo, index) in videos" :key="`video-${index}`">
           <a
             :class="{ active: templateVideo.name === activeVideo.name}"
-            @click="setActiveVideo(templateVideo, index)"
+            @click="setActiveVideo(templateVideo)"
           > {{ index+1 }}.{{ $t(`videoNames.${templateVideo.name}`) }}
           </a>
         </li>
