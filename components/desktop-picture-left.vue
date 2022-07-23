@@ -52,7 +52,7 @@ computed: {
 ul{
   margin-top: 12%;
   width: 70%;
-  height:100%;
+  height: 100%;
   overflow: hidden;
   overflow-y: scroll;
 }
@@ -65,7 +65,6 @@ ul{
 li{
   margin-bottom: 10px;
 }
-
 .quote{
   height: 35%;
 }
