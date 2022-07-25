@@ -27,10 +27,9 @@ export default {
     padding: 1em;
   }
   p{
-    font-family: 'Palace Script MT', sans-serif;
+    font-family: "Yellowtail", cursive;
     font-style: italic;
-    font-weight: 400;
-    font-size: 4em;
+    font-size: 3em;
     line-height: 3.8rem;
     color: white;
   }

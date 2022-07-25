@@ -33,14 +33,13 @@ export default {
   flex-direction: column;
   text-align: right;
   width: 100%;
-  margin-right: 11%;
+  margin-right: 16%;
 }
 p{
   display: block;
-  font-family: 'Palace Script MT', sans-serif;
+  font-family: "Yellowtail", cursive;
   font-style: italic;
-  font-weight: 400;
-  font-size: 4em;
+  font-size: 3em;
   line-height: 65px;
   color: white;
 }
