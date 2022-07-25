@@ -12,18 +12,13 @@
         </a>
       </div>
       <div class="partner-div">
-        <a href="http://cinetechno.art/" target="_blank">
-          <img class="partner-pic" src="~/assets/pictures/partners/cinetechno.png">
-        </a>
-      </div>
-      <div class="partner-div">
         <a href="https://cine.lt/" target="_blank">
           <img class="partner-pic" src="~/assets/pictures/partners/cinevera.png">
         </a>
       </div>
       <div class="partner-div">
-        <a href="http://www.helmifilms.fi/" target="_blank">
-          <img class="partner-pic" src="~/assets/pictures/partners/Helmi-Films.png">
+        <a href="http://cinetechno.art/" target="_blank">
+          <img class="partner-pic" src="~/assets/pictures/partners/cinetechno.png">
         </a>
       </div>
       <div class="partner-div">
@@ -49,6 +44,7 @@ export default {
   background-repeat: no-repeat;
 
   display: flex;
+  align-items: center;
   /* flex-direction: column;
   justify-content: center;
   gap: 2em; */
@@ -60,13 +56,17 @@ export default {
 .partner-pictures{
   display: flex;
   flex-direction: row;
+  height: 90%;
   flex-wrap: wrap;
-  column-gap: 3em;
+  column-gap: 1.5em;
   align-items: center;
   justify-content: center;
 }
+.partner-div{
+  width: 12em;
+}
 .partner-pic{
-  width: 8.5em;
+  width: 100%;
   object-fit: cover;
 }
 @media only screen and (max-width: 800px) {
