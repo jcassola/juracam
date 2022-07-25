@@ -41,7 +41,7 @@ export default {
     align-items: center;
     /* gap: 2em; */
     width: 100%;
-    height: 40em;
+    height: 100%;
 
     border-top: 7px solid #2F2727;
     border-bottom: 7px solid #2F2727;
