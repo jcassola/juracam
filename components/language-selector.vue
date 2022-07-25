@@ -18,17 +18,23 @@ export default {
 
 <style scoped>
   div{
+    background-color: transparent;
     position: absolute;
     z-index: 100;
     top: 12%;
   }
   select, option{
+    background-color: transparent;
     color: white;
-    background-color: #201B1B;
-    font-family: 'Monospac821 BT';
-    font-size: 1em;
+    font-family: "Yellowtail", cursive;
+    font-size: 1.5em;
     padding: 5px;
     outline: none;
+    border: none;
+}
+option{
+  font-size: 1em;
+  color: black;
 }
 @media only screen and (max-width: 800px) {
   div {
