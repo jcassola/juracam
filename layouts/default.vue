@@ -2,7 +2,7 @@
   <div class="parent">
     <language-selector />
     <div class="top">
-      <img class="tapes" src="~/assets/pictures/bg/tapes-top.png">
+      <img class="tapes" src="~/assets/pictures/bg/tapes-top-2.png">
     </div>
     <div class="main">
       <div class="container">
@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="footer">
-      <img class="tapes" src="~/assets/pictures/bg/tapes-top.png">
+      <img class="tapes" src="~/assets/pictures/bg/tapes-top-2.png">
     </div>
   </div>
 </template>

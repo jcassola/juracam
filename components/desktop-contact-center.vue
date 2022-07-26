@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 .contact-center{
-  background: url("assets/pictures/bg/center-bg-shorter.png");
+  background: url("assets/pictures/bg/center-bg-2.png");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2em;
+  gap: 1.7em;
   width: 51%;
 
   border-left: 7px solid #2F2727;
@@ -62,11 +62,13 @@ h1{ /*Only por normalize browser CSS*/
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .contact-info > p{
-  font-size: 2.2em;
+  font-family: 'Monospac821 BT';
+  font-size: 2em;
   font-weight: 700;
 }
 .contact-info > p > span{
-  font-size: 0.9em;
+  font-family: 'Monospac821 BT';
+  font-size: 0.8em;
   font-weight: 700;
 }
 

@@ -44,7 +44,7 @@ export default {
     margin: auto;
   }
 .contact-left{
-    background: url("assets/pictures/bg/left-bg.png");
+    background: url("assets/pictures/bg/left-bg-2.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
