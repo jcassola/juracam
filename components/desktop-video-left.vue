@@ -36,22 +36,22 @@ export default {
 
 <style scoped>
 .video-left{
-    background: url("assets/pictures/bg/transparent-bg.png"), url("assets/pictures/bg/left-bg.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 49%;
+  background: url("assets/pictures/bg/transparent-bg.png"), url("assets/pictures/bg/left-bg-2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 49%;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .video-list{
   height: 50%;
 }
 ul{
-  margin-top: 12%;
+  margin-top: 15%;
   width: 90%;
   height:100%;
   overflow: hidden;

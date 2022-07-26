@@ -45,7 +45,7 @@ export default {
   justify-content: space-around;
 }
 ul {
-  height: 30em;
+  height: 28em;
   padding: 0px;
   margin: 0px;
   text-align: left;

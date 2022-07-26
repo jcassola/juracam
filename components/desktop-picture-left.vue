@@ -35,7 +35,7 @@ computed: {
 
 <style scoped>
 .picture-left{
-  background: url("assets/pictures/bg/transparent-bg.png"), url("assets/pictures/bg/left-bg.png");
+  background: url("assets/pictures/bg/transparent-bg.png"), url("assets/pictures/bg/left-bg-2.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@ computed: {
   height: 50%;
 }
 ul{
-  margin-top: 12%;
+  margin-top: 15%;
   width: 70%;
   height: 100%;
   overflow: hidden;

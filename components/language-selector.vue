@@ -25,12 +25,14 @@ export default {
   }
   select, option{
     background-color: transparent;
-    color: white;
     font-family: "Yellowtail", cursive;
-    font-size: 1.5em;
+    font-size: 2.2em;
     padding: 5px;
     outline: none;
     border: none;
+    margin-left: .5em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px #412712;
 }
 option{
   font-size: 1em;
@@ -40,6 +42,15 @@ option{
   div {
     top: 0;
     margin-left: 10%;
+  }
+  select, option{
+    font-size: 1.5em;
+    margin-left: 0;
+    text-shadow: 0px 4px 4px #412712;
+  }
+  option{
+    font-size: 1em;
+    padding: 0;
   }
 }
 </style>

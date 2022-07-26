@@ -24,7 +24,7 @@ export default {
     flex-direction: column;
     text-align: right;
     width: 100%;
-    padding: 1em;
+    padding: 2em;
   }
   p{
     font-family: "Yellowtail", cursive;
