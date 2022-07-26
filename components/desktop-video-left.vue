@@ -76,6 +76,6 @@ li{
 
 .quote{
   height: 35%;
-
+  margin-bottom: 4%;
 }
 </style>

@@ -50,7 +50,7 @@ computed: {
   height: 50%;
 }
 ul{
-  margin-top: 15%;
+  margin-top: 16.2%;
   width: 70%;
   height: 100%;
   overflow: hidden;
@@ -67,5 +67,7 @@ li{
 }
 .quote{
   height: 35%;
+  margin-bottom: 4%;
+
 }
 </style>

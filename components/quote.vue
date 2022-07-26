@@ -29,7 +29,7 @@ export default {
   p{
     font-family: "Yellowtail", cursive;
     font-style: italic;
-    font-size: 3em;
+    font-size: 2.5em;
     line-height: 3.8rem;
     color: white;
   }
