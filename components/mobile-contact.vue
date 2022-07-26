@@ -62,10 +62,12 @@ export default {
   width: 40%;
 }
 .contact-info > p{
+  font-family: 'Monospac821 BT';
   font-size: 1.1em;
   font-weight: 700;
 }
 .contact-info > p > span{
+  font-family: 'Monospac821 BT';
   font-size: 0.9em;
   font-weight: 700;
 }
