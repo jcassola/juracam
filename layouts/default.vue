@@ -30,6 +30,11 @@ export default {
 
 <style scoped>
   .parent{
+    background: url("assets/pictures/bg/cover-up.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,6 +43,7 @@ export default {
 
   }
   .top, .footer{
+
     position: absolute;
     height: 12%;
     width: 100%;

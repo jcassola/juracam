@@ -27,7 +27,7 @@ export default {
     width: 150%;
     position: absolute;
     right: -60%;
-    bottom: 4%;
-    height: 80%;
+    bottom: 7%;
+    height: 75%;
   }
 </style>
