@@ -31,12 +31,19 @@ export default {
         rel: 'stylesheet',
         href:
         'https://fonts.cdnfonts.com/css/monospac821-bt'
+      },
+      {
+        rel: 'stylesheet',
+        href:
+        'https://fonts.cdnfonts.com/css/bodoni'
       }
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['~/assets/css/main'
+  css: [
+    '~/assets/css/fonts',
+    '~/assets/css/main'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

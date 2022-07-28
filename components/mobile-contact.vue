@@ -52,7 +52,7 @@ export default {
   max-width: 40%;
 }
 .description > p{
-  font-family: 'High Tower Text', cursive;
+  font-family: "Bodoni", cursive;
   font-size: 1.5em;
   font-weight: 1000;
   color: #241B1B;

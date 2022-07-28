@@ -55,7 +55,8 @@ h1{ /*Only por normalize browser CSS*/
   max-width: 80%;
 }
 .description > p{
-  font-family: 'High Tower Text', cursive;
+  font-family: "Bodoni", cursive;
+  /* font-family: 'High Tower Text', cursive; */
   font-size: 2em;
   font-weight: 1000;
   color: #241B1B;

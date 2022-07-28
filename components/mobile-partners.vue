@@ -22,11 +22,6 @@
           <img class="partner-pic" src="~/assets/pictures/partners/cinevera.png">
         </a>
       </div>
-      <!-- <div class="partner-div">
-        <a href="http://www.helmifilms.fi/" target="_blank">
-          <img class="partner-pic" src="~/assets/pictures/partners/Helmi-Films.png">
-        </a>
-      </div> -->
       <div class="partner-div">
         <a href="https://www.steadicam-ops.com/" target="_blank">
           <img class="partner-pic" src="~/assets/pictures/partners/sm_logo.png">
@@ -63,7 +58,7 @@ export default {
 }
 .partner-pic{
   padding: 1em;
-  width: 8em;
+  width: 8.5em;
   object-fit: cover;
 }
 h1{

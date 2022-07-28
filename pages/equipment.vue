@@ -69,8 +69,8 @@ li{
   font-family: 'Monospac821 BT';
   font-style: normal;
   font-weight: 700;
-  font-size: 1em;
-  line-height: 2em;
+  font-size: 1.3em;
+  line-height: 1.7em;
   word-spacing: .8em;
 
   color: #412712;
@@ -103,7 +103,7 @@ h1{
     width: 75%;
   }
   li{
-    font-size: .7rem;
+    font-size: 1rem;
     line-height: 1.2em;
   }
 }

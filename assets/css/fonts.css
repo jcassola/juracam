@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Bodoni';
+  src: url('~assets/fonts/Bodoni-Bold-Cyrillic.ttf') format('truetype');
+}
+/* @font-face {
+  font-family: 'Roboto';
+  src: url('~assets/fonts/Roboto-Thin.ttf') format('truetype');
+} */
+
+@font-face {
+  font-family: 'CyrillicBrush';
+  src: url('~assets/fonts/CyrillicBrush-Medium.ttf') format('truetype');
+}

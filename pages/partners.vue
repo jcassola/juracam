@@ -10,7 +10,7 @@
 
 <script>
 import MobilePartners from '~/components/mobile-partners.vue'
-import PartnersCenter from '~/components/partners-center.vue'
+import PartnersCenter from '~/components/desktop-partners-center.vue'
 import QuoteLeft from '~/components/quote-left.vue'
 
 export default {
