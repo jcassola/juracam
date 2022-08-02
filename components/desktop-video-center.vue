@@ -27,7 +27,7 @@ export default {
     'videos', 'activeVideo'
   ]),
   watch: {
-    'activeVideo' () {
+    activeVideo () {
       this.videoKey++
     }
   },

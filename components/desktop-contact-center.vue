@@ -34,7 +34,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1.7em;
+  gap: 2rem;
   width: 51%;
 
   border-left: 7px solid #2F2727;
@@ -48,10 +48,11 @@ h1{ /*Only por normalize browser CSS*/
   margin: 0;
 }
 .name{
-  font-size: 2.8em;
   font-family: 'Yellowtail', cursive;
+  font-size: 2.8em;
   color: #241B1B;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 2.1rem;
 }
 .description{
   margin: 0 auto;
