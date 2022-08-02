@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'ConforterBrush';
+  src: url('~assets/fonts/ComforterBrushRegular.ttf') format('truetype');
+}
+
 *{
   box-sizing: border-box;
   margin: 0;

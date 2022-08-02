@@ -47,10 +47,11 @@ export default {
     border-bottom: 7px solid #2F2727;
   }
   h1{
-    font-family: 'Yellowtail';
+    font-family: 'ConforterBrush';
     font-style: normal;
     font-weight: 400;
     font-size: 4rem;
+    font-weight: 600;
     color: #241B1B;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }

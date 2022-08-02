@@ -75,9 +75,9 @@ export default {
 }
 .video-player > h1{
   text-align: right;
-  font-family: 'Yellowtail', sans-serif;
+  font-family: 'ConforterBrush', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 3rem;
 }
 video{

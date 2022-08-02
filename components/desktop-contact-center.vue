@@ -46,7 +46,7 @@ h1{ /*Only por normalize browser CSS*/
 }
 .name{
   font-size: 2.8em;
-  font-family: 'Yellowtail', cursive;
+  font-family: 'ConforterBrush', cursive;
   color: #241B1B;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -56,7 +56,6 @@ h1{ /*Only por normalize browser CSS*/
 }
 .description > p{
   font-family: "Bodoni", cursive;
-  /* font-family: 'High Tower Text', cursive; */
   font-size: 2em;
   font-weight: 1000;
   color: #241B1B;

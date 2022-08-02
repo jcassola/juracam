@@ -28,6 +28,6 @@ export default {
 }
 .quote-down{
   margin-top: auto;
-  margin-bottom: 4%;
+  margin-bottom: 3%;
 }
 </style>

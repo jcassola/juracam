@@ -62,7 +62,7 @@ video{
   width: 80%
 }
 h1{
-  font-family: 'Yellowtail', sans-serif;
+  font-family: 'ConforterBrush', sans-serif;
   font-style: normal;
   font-size: 5em;
   color: #241B1B;

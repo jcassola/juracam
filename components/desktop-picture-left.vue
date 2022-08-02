@@ -48,6 +48,7 @@ computed: {
 }
 .picture-list{
   height: 50%;
+  z-index: 500;
 }
 ul{
   margin-top: 16.2%;
@@ -67,7 +68,7 @@ li{
 }
 .quote{
   height: 35%;
-  margin-bottom: 4%;
+  margin-bottom: 3%;
 
 }
 </style>

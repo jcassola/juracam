@@ -62,7 +62,7 @@ export default {
   object-fit: cover;
 }
 h1{
-  font-family: 'Yellowtail';
+  font-family: 'ConforterBrush';
   text-align: center;
   font-style: normal;
   font-size: 3em;

@@ -43,7 +43,7 @@ export default {
 .name{
   font-size: 1.3em;
   font-weight: 800;
-  font-family: 'Yellowtail', cursive;
+  font-family: 'ConforterBrush', cursive;
   color: #241B1B;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-top: 3em;

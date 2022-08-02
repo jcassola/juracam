@@ -37,7 +37,7 @@ export default {
 }
 p{
   display: block;
-  font-family: "Yellowtail", cursive;
+  font-family: "ConforterBrush", cursive;
   font-style: italic;
   font-size: 3em;
   line-height: 65px;

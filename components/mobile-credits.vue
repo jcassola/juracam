@@ -69,7 +69,7 @@ ul >li{
 }
 h1{
   font-size: 3.5em;
-  font-family: 'Yellowtail';
+  font-family: 'ConforterBrush';
   font-weight: 600;
   margin-bottom: auto;
   color: #241B1B;

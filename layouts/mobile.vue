@@ -1,6 +1,5 @@
 <template>
   <div class="parent">
-    <div class="left" />
     <language-selector />
     <div class="main">
       <div class="container">
@@ -9,7 +8,6 @@
         <NavBar class="my-navbar" />
       </div>
     </div>
-    <div class="right" />
   </div>
 </template>
 
@@ -33,14 +31,6 @@ export default {
     flex-direction: row;
     width: 100vw;
     overflow: scroll;
-  }
-  .left, .right{
-    width: 0%;
-
-    /* background: url("assets/pictures/bg/tape-vertical.png"), url("assets/pictures/bg/bg-vertical.png"); */
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover, contain;
   }
   .main{
     width: 100%;

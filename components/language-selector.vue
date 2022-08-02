@@ -25,7 +25,7 @@ export default {
   }
   select, option{
     background-color: transparent;
-    font-family: "Yellowtail", cursive;
+    font-family: "ConforterBrush", cursive;
     font-size: 2.2em;
     padding: 5px;
     outline: none;

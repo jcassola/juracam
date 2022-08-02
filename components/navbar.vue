@@ -54,13 +54,9 @@ div {
   height: 100%;
 }
 
-/* .active {
-  color: #412712 !important;
-  text-decoration: underline !important;
-} */
 .nuxt-link-exact-active{
   color: #412712 !important;
-  text-decoration: underline !important;
+  /* text-decoration: underline !important; */
 }
 
 ul {
@@ -72,7 +68,7 @@ ul {
   gap: 1em;
 }
 .link {
-  font-family: "Yellowtail", cursive;
+  font-family: "ConforterBrush", cursive;
   color: #ffffff;
   font-size: 2.5rem;
   text-decoration: none;
