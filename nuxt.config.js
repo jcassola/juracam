@@ -30,7 +30,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-        'https://fonts.cdnfonts.com/css/monospac821-bt'
+        'https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap'
       },
       {
         rel: 'stylesheet',

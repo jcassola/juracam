@@ -34,7 +34,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2rem;
+  /* gap: 2rem; */
   width: 51%;
 
   border-left: 7px solid #2F2727;
@@ -65,15 +65,17 @@ h1{ /*Only por normalize browser CSS*/
   color: #241B1B;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.contact-info{
+  margin-bottom: 4.5rem;
+
+}
 .contact-info > p{
-  font-family: 'Monospac821 BT';
+  font-family: 'Roboto Mono', monospace;
   font-size: 1.8em;
-  font-weight: 700;
 }
 .contact-info > p > span{
-  font-family: 'Monospac821 BT';
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.8em;
-  font-weight: 700;
 }
 
 </style>
