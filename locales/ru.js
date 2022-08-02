@@ -7,7 +7,11 @@ export default {
   certificate: 'Сертификат',
   equipment: 'Перечень оборудования',
 
-  description: 'Профессиональный оператор и оператор стедикама',
+// Contacts page
+  description: {
+    cameraman: 'Оператор',
+    operator: 'Оператор стедикама'
+  },
   email: 'ЭЛ. АДРЕС',
   mobile: 'МОБИЛЬНЫЙ',
 

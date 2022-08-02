@@ -17,11 +17,11 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      // {
-      //   rel: 'stylesheet',
-      //   href:
-      //   'https://fonts.cdnfonts.com/css/yellowtail'
-      // },
+      {
+        rel: 'stylesheet',
+        href:
+        'https://fonts.cdnfonts.com/css/yellowtail'
+      },
       {
         rel: 'stylesheet',
         href:

@@ -5,7 +5,10 @@
     </div>
     <div class="description">
       <p>
-        {{ $t('description') }}
+        {{ $t('description.cameraman') }}
+      </p>
+      <p>
+        {{ $t('description.operator') }}
       </p>
     </div>
     <div class="contact-info">
@@ -41,9 +44,9 @@ export default {
   margin-left: 10%;
 }
 .name{
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: 800;
-  font-family: 'ConforterBrush', cursive;
+  font-family: 'Yellowtail', cursive;
   color: #241B1B;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-top: 3em;

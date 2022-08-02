@@ -5,7 +5,10 @@
     </div>
     <div class="description">
       <p>
-        {{ $t('description') }}
+        {{ $t('description.cameraman') }}
+      </p>
+      <p>
+        {{ $t('description.operator') }}
       </p>
     </div>
     <div class="contact-info">
@@ -46,7 +49,7 @@ h1{ /*Only por normalize browser CSS*/
 }
 .name{
   font-size: 2.8em;
-  font-family: 'ConforterBrush', cursive;
+  font-family: 'Yellowtail', cursive;
   color: #241B1B;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -63,7 +66,7 @@ h1{ /*Only por normalize browser CSS*/
 }
 .contact-info > p{
   font-family: 'Monospac821 BT';
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: 700;
 }
 .contact-info > p > span{
