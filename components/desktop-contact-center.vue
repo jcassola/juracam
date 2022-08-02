@@ -66,7 +66,7 @@ h1{ /*Only por normalize browser CSS*/
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .contact-info{
-  margin-bottom: 4.5rem;
+  margin-bottom: 3rem;
 
 }
 .contact-info > p{
