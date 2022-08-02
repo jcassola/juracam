@@ -68,7 +68,7 @@ li{
 }
 .quote{
   height: 35%;
-  margin-bottom: 3%;
+  /* margin-bottom: 3%; */
 
 }
 </style>

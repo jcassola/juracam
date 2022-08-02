@@ -30,7 +30,7 @@ export default {
     font-family: "ConforterBrush", cursive;
     font-style: italic;
     font-size: 2.5em;
-    line-height: 3.8rem;
+    /* line-height: 3.8rem; */
     color: white;
   }
   .line-one{
