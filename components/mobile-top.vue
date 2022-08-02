@@ -39,7 +39,7 @@ p{
   display: block;
   font-family: "ConforterBrush", cursive;
   font-style: italic;
-  font-size: 3em;
+  font-size: 2.5em;
   line-height: 65px;
   color: white;
 }

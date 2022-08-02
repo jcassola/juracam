@@ -20,9 +20,9 @@ export default {
   languageButton: 'Русский',
 
   // Quote
-  quoteFirstLine: 'Movement is life',
-  quoteSecondLine: 'If you move',
-  quoteThirdLine: 'you live!',
+  quoteFirstLine: 'Движение это жизнь',
+  quoteSecondLine: 'Если вы двигаетесь',
+  quoteThirdLine: 'вы живете!',
 
   // Credits
   workExperience: 'Work Experience',

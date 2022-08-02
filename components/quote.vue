@@ -30,7 +30,6 @@ export default {
     font-family: "ConforterBrush", cursive;
     font-style: italic;
     font-size: 2.5em;
-    /* line-height: 3.8rem; */
     color: white;
   }
   .line-one{
@@ -40,6 +39,7 @@ export default {
     text-align: center;
   }
   .line-three{
-    text-align: right;
+    text-align: center;
+    margin-left: 6em;
   }
 </style>
