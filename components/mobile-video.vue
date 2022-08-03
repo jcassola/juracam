@@ -100,9 +100,7 @@ ul{
 
 a{
   cursor: pointer;
-  font-family: 'Monospac821 BT';
-  font-style: normal;
-  font-weight: 700;
+  font-family: 'Roboto Mono', monospace;
   font-size: 1rem;
   color: white;
   margin-left: 5%;

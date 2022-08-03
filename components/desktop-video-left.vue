@@ -60,11 +60,9 @@ ul{
 }
 a{
   cursor: pointer;
-  font-family: 'Monospac821 BT';
-  font-style: normal;
-  font-weight: 700;
+  font-family: 'Roboto Mono', monospace;
   font-size: 1.8rem;
-  line-height: 36px;
+  line-height: 2.25rem;
   color: white;
   margin-left: 10%;
 }
