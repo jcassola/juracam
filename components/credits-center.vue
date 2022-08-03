@@ -58,9 +58,7 @@ ul {
 
 ul >li{
   list-style-type: none;
-  font-family: 'Monospac821 BT';
-  font-style: normal;
-  font-weight: 1000;
+  font-family: 'Roboto Mono', monospace;
   font-size: 1.2em;
   line-height: 2em;
 }
@@ -68,8 +66,7 @@ ul >li{
   margin-right: auto;
 }
 h1{
-  font-family: 'Monospac821 BT';
-  font-weight: 1000;
+  font-family: 'Roboto Mono', monospace;
   margin-bottom: auto;
   font-size: 2.5em;
 }
