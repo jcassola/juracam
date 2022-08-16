@@ -1,7 +1,7 @@
 <template>
   <div class="picture-center">
     <h1>{{ $t('photographs') }}</h1>
-    <carousel :perPage="1" :scrollPerPage="true" class="carousel">
+    <carousel :paginationEnabled="false" :perPage="1" :scrollPerPage="true" class="carousel">
       <slide v-for="(image, index) in pictures" :key="`mobileImg-${index}`">
         <div class="div-pic">
           <img
@@ -58,6 +58,7 @@ export default {
   .carousel{
     width: 100%;
     align-items: center;
+    margin-bottom: 1rem;
   }
   .div-pic{
     width: 100%;
