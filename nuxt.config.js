@@ -79,6 +79,7 @@ export default {
   ],
 
   router: {
+    // base: '/dist/',
     middleware: ['mobile', 'redirects']
   },
 

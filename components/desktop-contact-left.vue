@@ -24,6 +24,7 @@ export default {
     bottom: 0;
   }
   .yessir{
+    pointer-events: none;
     width: 150%;
     position: absolute;
     right: -60%;
